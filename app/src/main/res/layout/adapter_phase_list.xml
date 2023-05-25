@@ -1,0 +1,101 @@
+<TableRow xmlns:android="http://schemas.android.com/apk/res/android"
+          xmlns:app="http://schemas.android.com/apk/res-auto"
+          xmlns:tools="http://schemas.android.com/tools"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:background="@color/colorGraysoft"
+          android:orientation="horizontal"
+          android:paddingBottom="5dp"
+          android:paddingLeft="10dp"
+          android:paddingRight="10dp"
+          android:paddingTop="5dp">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.2"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/txtPhase"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:padding="2dp"
+            android:text="RECUPERACION"
+            android:textAlignment="textStart"
+            android:textSize="14sp"
+            tools:ignore="HardcodedText"/>
+
+        <TextView
+            android:id="@+id/txtInstruction"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:padding="2dp"
+            android:text="CAMINATA"
+            android:textAlignment="textStart"
+            android:textColor="@color/articlecolor"
+            android:textSize="10sp"
+            tools:ignore="HardcodedText,SmallSp"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/txtPace"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_weight="0.2"
+        android:gravity="center"
+        android:text="4 km/h"
+        android:textSize="12sp"
+        tools:ignore="HardcodedText"/>
+
+    <TextView
+        android:id="@+id/txtTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_weight="0.2"
+        android:gravity="center"
+        android:text="4 km/h"
+        android:textSize="12sp"
+        tools:ignore="HardcodedText"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_weight="0.2"
+        android:gravity="center">
+
+        <ImageView
+            android:id="@+id/imgStatusGreen"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/circule_green"
+            tools:ignore="ContentDescription"/>
+
+        <ImageView
+            android:id="@+id/imgStatusYellow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/circule_yellow"
+            tools:ignore="ContentDescription"/>
+
+        <ImageView
+            android:id="@+id/imgStatusGray"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/circule_grey"
+            tools:ignore="ContentDescription"/>
+
+        <ImageView
+            android:id="@+id/imgStatusRed"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/circule_red"
+            tools:ignore="ContentDescription"/>
+    </LinearLayout>
+</TableRow>

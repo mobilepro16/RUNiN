@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@android:color/transparent"
+    android:gravity="bottom"
+    android:theme="@style/ThemeOverlay.AppCompat.Dark"
+    android:paddingLeft="20dp"
+    android:paddingTop="15dp"
+    android:paddingBottom="15dp">
+
+    <Button
+        android:id="@+id/menu_outdoor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="15dp"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/button_white_transparent"
+        android:drawablePadding="5dp"
+        android:drawableRight="@mipmap/icono_out_door"
+        android:onClick="onOutDoorClick"
+        android:padding="10dp"
+        android:text="@string/profileMode"
+        android:textAllCaps="false"
+        android:textColor="@color/colorGrayMenu"/>
+
+    <View
+        android:id="@+id/view"
+        android:layout_width="200dp"
+        android:layout_height="1dp"
+        android:background="@color/colorGradientDrawer2"/>
+
+    <Button
+        android:id="@+id/menu_quick"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="15dp"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/button_white_transparent"
+        android:drawablePadding="5dp"
+        android:drawableRight="@mipmap/boton_quick"
+        android:onClick="onQuickClick"
+        android:padding="10dp"
+        android:text="@string/profileMode"
+        android:textAllCaps="false"
+        android:textColor="@color/colorGrayMenu"/>
+
+    <Button
+        android:id="@+id/menu_planes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="15dp"
+        android:background="@drawable/button_white_transparent"
+        android:drawablePadding="5dp"
+        android:drawableRight="@mipmap/icono_in_planes"
+        android:onClick="plansP"
+        android:padding="10dp"
+        android:text="@string/profileMode"
+        android:textAllCaps="false"
+        android:textColor="@color/colorGrayMenu"/>
+
+    <Button
+        android:id="@+id/menu_mejorate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="15dp"
+        android:background="@drawable/button_white_transparent"
+        android:drawablePadding="5dp"
+        android:drawableRight="@mipmap/icono_in_mejorate"
+        android:onClick="improveP"
+        android:padding="10dp"
+        android:text="@string/profileMode"
+        android:textAllCaps="false"
+        android:textColor="@color/colorGrayMenu"/>
+
+</LinearLayout>

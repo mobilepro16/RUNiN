@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.runin.runinapp.outdoor.plans.SelectPlanFocusActivity">
+
+    <include
+        layout="@layout/toolbar_plans"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/plans_purple"
+            android:orientation="vertical"
+            android:paddingBottom="4dp"
+            android:paddingTop="@dimen/activity_vertical_margin">
+
+            <TextView
+                android:id="@+id/screen_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/plantype_title"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="@android:color/white"
+                android:textStyle="bold"/>
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/linearImag"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:scaleType="centerCrop"
+            android:src="@mipmap/linea_diagonal_plans"
+            tools:ignore="ContentDescription"/>
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <LinearLayout
+                android:id="@+id/content"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="?android:attr/selectableItemBackground"
+                android:clickable="true"
+                android:focusable="true"
+                android:orientation="vertical"
+                android:paddingBottom="@dimen/margin_list_vertical"
+                android:paddingEnd="@dimen/margin_list_horizontal"
+                android:paddingStart="@dimen/margin_list_horizontal"
+                android:paddingTop="@dimen/margin_list_vertical">
+
+                <TextView
+                    android:id="@+id/textView20"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:text="@string/detail_plansbot"
+                    android:textColor="@color/colorQS"
+                    android:textSize="16sp"/>
+
+                <TextView
+                    android:id="@+id/desc_plans"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginTop="10dp"
+                    android:gravity="center"
+                    android:text="@string/detail_plans"
+                    android:textSize="14sp"/>
+
+                <RelativeLayout
+                    android:id="@+id/distance_scheme"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:background="?android:attr/selectableItemBackground"
+                    android:orientation="vertical"
+                    android:paddingBottom="15dp"
+                    android:paddingTop="15dp">
+
+                    <ImageView
+                        android:id="@+id/imageView9"
+                        android:layout_width="70dp"
+                        android:layout_height="70dp"
+                        android:contentDescription="@string/app_name"
+                        android:src="@mipmap/chica_corriendo"/>
+
+                    <TextView
+                        android:id="@+id/dist_title"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_toEndOf="@+id/imageView9"
+                        android:gravity="start"
+                        android:paddingEnd="12dp"
+                        android:paddingStart="12dp"
+                        android:text="@string/distancetitle"
+                        android:textColor="@color/colorPrimary"
+                        android:textSize="@dimen/font_size_subtitles"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/dist_title"
+                        android:layout_toEndOf="@+id/imageView9"
+                        android:paddingEnd="12dp"
+                        android:paddingStart="12dp"
+                        android:paddingTop="7dp"
+                        android:text="@string/distancedesc"/>
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/speed_scheme"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="15dp"
+                    android:background="?android:attr/selectableItemBackground"
+                    android:orientation="vertical"
+                    android:paddingBottom="15dp"
+                    android:paddingTop="15dp">
+
+                    <ImageView
+                        android:id="@+id/imageView8"
+                        android:layout_width="70dp"
+                        android:layout_height="70dp"
+                        android:contentDescription="@string/app_name"
+                        android:src="@mipmap/icono2"/>
+
+                    <TextView
+                        android:id="@+id/speed_title"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_toEndOf="@+id/imageView8"
+                        android:gravity="start"
+                        android:paddingEnd="12dp"
+                        android:paddingStart="12dp"
+                        android:text="@string/speedtitle"
+                        android:textColor="@color/colorPrimary"
+                        android:textSize="@dimen/font_size_subtitles"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/speed_title"
+                        android:layout_toEndOf="@+id/imageView8"
+                        android:paddingEnd="12dp"
+                        android:paddingStart="12dp"
+                        android:paddingTop="7dp"
+                        android:text="@string/speeddesc"/>
+                </RelativeLayout>
+            </LinearLayout>
+        </ScrollView>
+
+        <Button
+            android:id="@+id/buttonplan"
+            style="@style/Button.Orange"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0"
+            android:gravity="center"
+            android:text="@string/next_button"/>
+    </LinearLayout>
+</LinearLayout>

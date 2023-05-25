@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="16dp"
+                android:paddingRight="16dp"
+                android:paddingTop="16dp">
+
+    <ImageView
+        android:id="@+id/icon_music"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:contentDescription="@string/spotify"
+        android:src="@mipmap/boton_spotify"/>
+
+    <TextView
+        android:id="@+id/text_music"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="5dp"
+        android:layout_toEndOf="@+id/icon_music"
+        android:text="@string/musicTitle"/>
+
+    <ImageView
+        android:id="@+id/arrow_music"
+        android:layout_width="20dp"
+        android:layout_height="16dp"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="4dp"
+        android:src="@mipmap/right_icon"
+        tools:ignore="ContentDescription"/>
+
+    <View
+        android:id="@+id/line_place"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@+id/icon_music"
+        android:layout_marginTop="16dp"
+        android:background="@android:color/darker_gray"/>
+
+</RelativeLayout>

@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.runin.runinapp.outdoor.OutdoorSelectPlanActivity">
+
+    <include
+        layout="@layout/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorQS"
+            android:orientation="vertical"
+            android:paddingBottom="4dp"
+            android:paddingTop="@dimen/activity_vertical_margin">
+
+            <TextView
+                android:id="@+id/screen_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/select_plan_outdoor"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="@android:color/white"/>
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorGray"
+            android:scaleType="centerCrop"
+            android:src="@mipmap/linea_diagonal"
+            tools:ignore="ContentDescription"/>
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:weightSum="1">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/colorGray"
+                    android:orientation="vertical"
+                    android:paddingBottom="5dp"
+
+                    android:paddingTop="10dp">
+
+                    <TextView
+                        android:id="@+id/place_title"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="@string/outdoor"
+                        android:textSize="@dimen/font_size_subtitles"/>
+
+                </LinearLayout>
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:scaleType="centerCrop"
+                    android:src="@mipmap/quick_diagonal_gray"
+                    tools:ignore="ContentDescription"/>
+
+                <TextView
+                    android:id="@+id/textView12"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="0dp"
+                    android:layout_marginTop="24dp"
+                    android:layout_weight="0.29"
+                    android:gravity="center"
+                    android:paddingLeft="25dp"
+                    android:paddingRight="25dp"
+                    android:text="@string/indications_outdoor"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/activity_vertical_margin"
+                    android:background="?android:attr/selectableItemBackground"
+                    android:clickable="true"
+                    android:focusable="true"
+                    android:nestedScrollingEnabled="true"
+                    android:onClick="quickStartP"
+                    android:orientation="horizontal"
+                    android:paddingBottom="@dimen/margin_list_vertical"
+                    android:paddingEnd="@dimen/margin_list_horizontal"
+                    android:paddingStart="@dimen/margin_list_horizontal"
+                    android:paddingTop="@dimen/margin_list_vertical">
+
+                    <ImageView
+                        android:id="@+id/quick_image"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:layout_gravity="center_vertical"
+                        android:src="@mipmap/quick_icon_list"
+                        tools:ignore="ContentDescription"/>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="@dimen/margin_item_list"
+                        android:layout_marginStart="@dimen/margin_item_list"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/quick_start_option"
+                            android:layout_width="wrap_content"
+
+                            android:layout_height="wrap_content"
+                            android:text="@string/quick_start"
+                            android:textColor="@color/colorPrimary"
+                            android:textSize="@dimen/font_size_subtitles"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+
+                            android:layout_marginTop="@dimen/margin_item_list"
+                            android:text="@string/quick_start_description"/>
+                    </LinearLayout>
+                </LinearLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@color/colorGray"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="?android:attr/selectableItemBackground"
+                    android:clickable="true"
+                    android:focusable="true"
+                    android:onClick="plansP"
+                    android:orientation="horizontal"
+                    android:paddingBottom="@dimen/margin_list_vertical"
+                    android:paddingEnd="@dimen/margin_list_horizontal"
+                    android:paddingStart="@dimen/margin_list_horizontal"
+                    android:paddingTop="@dimen/margin_list_vertical">
+
+                    <ImageView
+                        android:id="@+id/plans_image"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:layout_gravity="center_vertical"
+                        android:src="@mipmap/plans_icon_list"
+                        tools:ignore="ContentDescription"/>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="@dimen/margin_item_list"
+                        android:layout_marginStart="@dimen/margin_item_list"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/plans_trainning_option"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/training_plans"
+                            android:textColor="@color/colorPrimary"
+                            android:textSize="@dimen/font_size_subtitles"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="@dimen/margin_item_list"
+                            android:text="@string/training_plans_description"/>
+                    </LinearLayout>
+                </LinearLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@color/colorGray"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="?android:attr/selectableItemBackground"
+                    android:clickable="true"
+                    android:focusable="true"
+                    android:onClick="improveP"
+                    android:orientation="horizontal"
+                    android:paddingBottom="@dimen/margin_list_vertical"
+                    android:paddingEnd="@dimen/margin_list_horizontal"
+                    android:paddingStart="@dimen/margin_list_horizontal"
+                    android:paddingTop="@dimen/margin_list_vertical">
+
+                    <ImageView
+                        android:id="@+id/improve_image"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:layout_gravity="center_vertical"
+                        android:src="@mipmap/improve_icon_list"
+                        tools:ignore="ContentDescription"/>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="@dimen/margin_item_list"
+                        android:layout_marginStart="@dimen/margin_item_list"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/improve_option"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/improve"
+                            android:textColor="@color/colorPrimary"
+                            android:textSize="@dimen/font_size_subtitles"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="@dimen/margin_item_list"
+                            android:text="@string/improve_description"/>
+                    </LinearLayout>
+                </LinearLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@color/colorGray"/>
+            </LinearLayout>
+        </ScrollView>
+
+        <Button
+            android:id="@+id/button_next"
+            style="@style/Button.Orange"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0"
+            android:gravity="center"
+            android:text="@string/next_button"/>
+    </LinearLayout>
+</LinearLayout>

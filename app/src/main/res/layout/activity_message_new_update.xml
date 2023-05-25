@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MessageNewUpdateActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="bottom|center"
+        android:background="@drawable/message_update_bg"
+        android:orientation="vertical"
+        android:weightSum="1">
+
+        <!--<RelativeLayout-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="170dp"-->
+        <!--android:layout_centerInParent="true"-->
+        <!--android:layout_gravity="bottom|center"-->
+        <!--android:background="#fff"-->
+        <!--android:gravity="bottom"-->
+        <!--android:orientation="vertical" >-->
+
+        <!--<LinearLayout-->
+        <!--android:layout_width="10dp"-->
+        <!--android:layout_height="100sp"-->
+        <!--android:layout_centerInParent="true"-->
+        <!--android:layout_marginLeft="10sp"-->
+        <!--android:background="#37c100" >-->
+        <!--</LinearLayout>-->
+
+        <!--<LinearLayout-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_marginLeft="6sp"-->
+        <!--android:background="@drawable/arrow_shape" >-->
+        <!--</LinearLayout>-->
+        <!--</RelativeLayout>-->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:gravity="center">
+
+            <ImageView
+                android:layout_width="150dp"
+                android:layout_height="100dp"
+                android:src="@drawable/ic_logo_runin_login" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="385dp"
+            android:layout_centerInParent="true"
+            android:layout_margin="55dp"
+            android:layout_weight="0.5"
+            android:background="@drawable/message_new_update_container"
+            android:gravity="center_horizontal"
+            android:orientation="vertical"
+            android:paddingVertical="50dp">
+
+
+            <TextView
+                android:id="@+id/newUpdate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/open_sans_regular"
+                android:gravity="center"
+                android:paddingHorizontal="45dp"
+                android:text="Runin tiene un nueva actualización."
+                android:textColor="#535353"
+                android:textSize="16sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="40dp"
+                android:fontFamily="@font/open_sans_regular"
+                android:gravity="center"
+                android:text="@string/newUpdateMessage3"
+                android:textColor="#535353"
+                android:textSize="16sp" />
+
+            <LinearLayout
+                android:id="@+id/confirmUpdate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/button_orange2"
+                android:elevation="3dp"
+                android:paddingHorizontal="60dp"
+                android:paddingVertical="15dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/open_sans_bold_italic"
+                    android:text="SI"
+                    android:textColor="@color/white"
+                    android:textSize="17sp"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/rejectUpdate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="17dp"
+                android:background="@drawable/button_white"
+                android:elevation="3dp"
+                android:paddingHorizontal="55dp"
+                android:paddingVertical="15dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/open_sans_bold_italic"
+                    android:text="NO"
+                    android:textColor="@color/orange"
+                    android:textStyle="bold"
+                    android:textSize="17sp" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </RelativeLayout>
+
+    <!--<ImageView-->
+    <!--android:id="@+id/imgCategory"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="match_parent"-->
+    <!--android:src="@drawable/message_update_bg"-->
+    <!--android:scaleType="fitXY"/>-->
+
+    <!--<LinearLayout-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="match_parent"-->
+    <!--android:background="@drawable/message_new_update_container"-->
+    <!--android:layout_alignLeft="@id/imgCategory"-->
+    <!--android:layout_alignTop="@id/imgCategory"-->
+    <!--android:layout_alignRight="@id/imgCategory"-->
+    <!--android:layout_alignBottom="@id/imgCategory">-->
+    <!---->
+    <!--<TextView-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:textColor="black"-->
+    <!--android:textSize="30sp"-->
+    <!--android:text="13"/>-->
+
+    <!--</LinearLayout>-->
+
+</LinearLayout>

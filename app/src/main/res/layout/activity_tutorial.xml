@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.runin.runinapp.tutorial.TutorialActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="match_parent">
+
+        <include layout="@layout/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <androidx.viewpager.widget.ViewPager
+            android:id="@+id/pager_introduction"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fitsSystemWindows="true"
+            tools:listitem="@layout/pager_item_tutorial" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/viewPagerIndicator"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:layout_marginBottom="@dimen/activity_vertical_margin"
+        android:layout_marginTop="5dp">
+
+        <LinearLayout
+            android:id="@+id/viewPagerCountDots"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" />
+
+        <Button
+            android:id="@+id/btn_next"
+            style="@style/Button.Transparent.Yellow"
+            android:layout_below="@+id/viewPagerCountDots"
+            android:layout_marginTop="12dp"
+            android:text="@string/tutorial_next"/>
+
+        <Button
+            android:id="@+id/btn_finish"
+            style="@style/Button.Transparent.Yellow"
+            android:layout_below="@+id/viewPagerCountDots"
+            android:layout_marginTop="12dp"
+            android:text="@string/finish_button"
+            android:textStyle="italic"
+            android:visibility="gone"/>
+
+    </RelativeLayout>
+</RelativeLayout>

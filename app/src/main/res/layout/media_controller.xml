@@ -1,0 +1,360 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2007 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+  
+          http://www.apache.org/licenses/LICENSE-2.0
+  
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:background="@color/blackTransparent"
+        android:orientation="horizontal"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:paddingLeft="4dip"
+            android:paddingRight="4dip"
+            android:paddingTop="4dip"
+            android:text="@string/progressTitle"
+            android:textColor="@color/colorYellowRunin"
+            android:textSize="14sp"
+            android:textStyle="bold|italic"/>
+
+        <TextView
+            android:id="@+id/time_current"
+            android:layout_width="45sp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:paddingLeft="4dip"
+            android:paddingRight="4dip"
+            android:paddingTop="4dip"
+            android:shadowColor="@color/colorPrimary"
+            android:shadowDx="0"
+            android:shadowDy="1"
+            android:shadowRadius="4"
+            android:text="100%"
+            android:textColor="@color/white"
+            android:textSize="14sp"
+            android:textStyle="bold|italic"/>
+
+        <FrameLayout
+            android:layout_width="0dp"
+            android:layout_height="26dp"
+            android:layout_weight="1"
+            android:paddingTop="2dp">
+
+            <ProgressBar
+                android:id="@+id/mediacontroller_progress"
+                style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:max="100"
+                android:paddingEnd="16dp"
+                android:paddingStart="16dp"
+                android:progress="50"
+                android:progressBackgroundTint="@color/colorGrayMenu"
+                android:progressTint="@color/colorYellowRunin"
+                android:thumb="@drawable/runner_icon"/>
+
+            <RelativeLayout
+                android:id="@+id/segment_markers"
+                android:layout_width="match_parent"
+                android:layout_height="16dp"
+                android:layout_gravity="center_vertical"/>
+        </FrameLayout>
+
+
+        <TextView
+            android:id="@+id/time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:paddingLeft="4dip"
+            android:paddingRight="4dip"
+            android:paddingTop="4dip"
+            android:shadowColor="@color/colorPrimary"
+            android:shadowDx="0"
+            android:shadowDy="1"
+            android:shadowRadius="4"
+            android:text="100%"
+            android:textColor="@color/white"
+            android:textSize="14sp"
+            android:textStyle="bold|italic"/>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/badw"
+        android:layout_width="match_parent"
+        android:layout_height="26dp"
+        android:layout_below="@+id/bar"
+        android:layout_gravity="center"
+        android:layout_marginLeft="85dp"
+        android:layout_marginRight="55dp"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:paddingBottom="7dp"
+        android:paddingTop="2dp">
+
+
+        <ImageView
+            android:layout_width="18dp"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/tiempo_icon_yellow"
+            tools:ignore="ContentDescription"/>
+
+        <TextView
+            android:id="@+id/time_textview"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="left"
+            android:paddingLeft="3dp"
+            android:shadowColor="@color/cardview_light_background"
+            android:shadowDx="0"
+            android:shadowDy="1"
+            android:shadowRadius="4"
+            android:text="Tiempo"
+            android:textColor="@color/black"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:src="@drawable/calorias_icon_yellow"
+            tools:ignore="ContentDescription"/>
+
+        <TextView
+            android:id="@+id/calories_textview"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="left"
+            android:paddingLeft="3dp"
+            android:shadowColor="@color/cardview_light_background"
+            android:shadowDx="0"
+            android:shadowDy="1"
+            android:shadowRadius="4"
+            android:text="0 Calorias"
+            android:textColor="@color/black"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:src="@drawable/pinpoint_icon_yellow"
+            tools:ignore="ContentDescription"/>
+
+        <TextView
+            android:id="@+id/distance_textview"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="left"
+            android:paddingLeft="3dp"
+            android:shadowColor="@color/cardview_light_background"
+            android:shadowDx="0"
+            android:shadowDy="1"
+            android:shadowRadius="4"
+            android:text="0.00 km"
+            android:textColor="@color/black"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:src="@drawable/velocimetro_icon_yellow"
+            tools:ignore="ContentDescription"/>
+
+        <TextView
+            android:id="@+id/speed_textview"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="left"
+            android:paddingLeft="3dp"
+            android:shadowColor="@color/cardview_light_background"
+            android:shadowDx="0"
+            android:shadowDy="1"
+            android:shadowRadius="4"
+            android:text="4.00 km/h"
+            android:textColor="@color/black"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:src="@drawable/pendiente_icon_yellow"
+            tools:ignore="ContentDescription"/>
+
+        <TextView
+            android:id="@+id/slope_textview"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="left"
+            android:paddingLeft="3dp"
+            android:shadowColor="@color/cardview_light_background"
+            android:shadowDx="0"
+            android:shadowDy="1"
+            android:shadowRadius="4"
+            android:text="0.0 °"
+            android:textColor="@color/black"/>
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+
+        android:id="@+id/foot_bat"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:gravity="center"
+        android:padding="10dp"
+        android:visibility="invisible">
+
+        <ImageButton
+            android:id="@+id/power"
+            android:layout_width="32dip"
+            android:layout_height="22dip"
+            android:background="@null"
+            android:contentDescription="@null"/>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/foot_player"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:orientation="horizontal"
+        android:visibility="gone">
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:background="@null"
+            android:paddingRight="7dip"
+            android:src="@drawable/backward_icon_yellow"
+            tools:ignore="ContentDescription"/>
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:background="@null"
+            android:paddingRight="5dip"
+            android:src="@drawable/play_icon_yellow"
+            tools:ignore="ContentDescription"/>
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:background="@null"
+            android:src="@drawable/fordward_icon_yellow"
+            tools:ignore="ContentDescription"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/foot_pause2"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="15dp"
+        android:layout_marginLeft="15dp"
+        android:background="@drawable/border_yellow"
+        android:gravity="center"
+        android:padding="10dp"
+        android:visibility="invisible">
+
+        <ImageButton
+            android:id="@+id/pause2"
+            style="@style/MediaButton.Batery"
+            android:layout_width="32dip"
+            android:layout_height="22dip"
+            android:contentDescription="@null"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="160dp"
+        android:layout_height="64dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="30dp"
+        android:layout_marginTop="0dp"
+        android:background="@android:color/transparent"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/program"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="@drawable/program_btn"/>
+
+        <ImageView
+            android:id="@+id/rayo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:visibility="gone"
+            app:srcCompat="@drawable/rayo"
+            tools:ignore="ContentDescription"/>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/foot_pause"
+        android:layout_width="160dp"
+        android:layout_height="64dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="30dp"
+        android:layout_marginTop="0dp"
+        android:background="@drawable/play_pause"
+        android:gravity="center"
+        android:paddingBottom="14dp"
+        android:paddingTop="14dp">
+
+        <ImageButton
+            android:id="@+id/pause"
+            android:layout_width="119dp"
+            android:layout_height="41dp"
+            android:background="@android:color/transparent"
+            android:contentDescription="@null"
+            android:visibility="visible"/>
+
+    </LinearLayout>
+</RelativeLayout>

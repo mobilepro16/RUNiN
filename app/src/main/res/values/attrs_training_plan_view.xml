@@ -1,0 +1,10 @@
+<resources>
+    <declare-styleable name="TrainingPlanView">
+        <attr name="warmUpColor" format="color"/>
+        <attr name="trainingColor" format="color"/>
+        <attr name="recoveryColor" format="color"/>
+        <attr name="coolDownColor" format="color"/>
+        <attr name="trialColor" format="color"/>
+        <attr name="runColor" format="color"/>
+    </declare-styleable>
+</resources>

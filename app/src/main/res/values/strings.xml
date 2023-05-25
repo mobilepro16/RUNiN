@@ -1,0 +1,754 @@
+<resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="Typos">
+    <string name="app_name">*RUNiN</string>
+    <string name="banner_inferior_ad_unit_id">ca-app-pub-5956662992010209/9184285995</string>
+    <string name="navigation_drawer_open">Abrir el menú de navegación</string>
+    <string name="navigation_drawer_close">Cerrar el menú de navegación</string>
+    <string name="action_settings">Configuración</string>
+    <string name="welcome_tutorial_1"><i>BIENVENIDO</i></string>
+    <string name="welcome_tutorial_2"><i>PROGRAMAS</i></string>
+    <string name="welcome_tutorial_3"><i>PROGRAMAS</i></string>
+    <string name="welcome_tutorial_4"><i>MEJÓRATE</i></string>
+    <string name="content_tutorial_1">Esta app para corredores te ofrece entrenamientos para <b>caminadora</b> o crear tu <b>propia ruta</b> al aire libre.</string>
+    <string name="content_tutorial_2"><b>INDOOR RUNNING</b>\nSiente la experiencia de correr en los parques más atractivos de México y París, dejándote guiar por nuestros entrenadores personalizados.</string>
+    <string name="content_tutorial_3"><b>OUTDOOR RUNNING</b>\nCorre con nuestros planes de entrenamiento enfocados en velocidad o distancia.</string>
+    <string name="content_tutorial_4">Plantéate objetivos en <b>ritmo y calorías</b> y supera tus récords personales y los de tus amigos.</string>
+    <string name="name_placeholder">Nombres</string>
+    <string name="last_name_placeholder">Apellidos</string>
+    <string name="weight_placeholder">Peso</string>
+    <string name="height_placeholder">Altura</string>
+    <string name="birth_placeholder">Fecha de nacimiento</string>
+    <string name="gender_placeholder">Género</string>
+    <string name="units_placeholder">Unidades de medida</string>
+    <string name="save"><i>GUARDAR</i></string>
+    <string name="select_place_run_title">Es momento de elegir</string>
+    <string name="select_place_description">Cada persona tiene una meta y solo depende de ti decidir como llegarás a ella.</string>
+    <string name="indoor">INDOOR</string>
+    <string name="runner">RUNNER</string>
+    <string name="indoor_description">Te mantienes motivado con nuestros videos, sabes que no es necesario estar al aire libre para obtener los resultados que deseas.</string>
+    <string name="outdoor">OUTDOOR</string>
+    <string name="outdoor_description">Lo tuyo es avanzar contra viento y marea. Tus rasgos te definen como un aventurero del Running.</string>
+    <string name="select_plan_outdoor">Selecciona tu plan</string>
+    <string name="select_level_indoor">Elige tu nivel</string>
+    <string name="indications_outdoor">Con unos pocos pasos podemos enfocarte al mejor plan de entrenamiento, dependiendo de tus objetivos.</string>
+    <string name="indications_indoor">Selecciona el perfil de corredor que te queda mejor, para ofrecerte programas de entrenamiento personalizado.</string>
+    <string name="quick_start">QUICK START</string>
+    <string name="badges_title">Insignias</string>
+
+    <string name="goal_percentage">Porcentaje de avance</string>
+    <string name="select_track">Selecciona la pista</string>
+    <string name="earned_badges">Insignias ganadas</string>
+
+    <string name="quick_start_description">Te permite correr sin necesidad de entrar a algún plan de entrenamiento o carrera.</string>
+
+
+    <!-- ************************
+    ******************************
+    Textos Outdoor
+    ******************************
+    ****************************** -->
+
+
+    <string name="training_plans">PLANES DE ENTRENAMIENTO</string>
+    <string name="training_plans_description">Los planes de entrenamiento te preparan para correr distintos tipos de carrera, desde 3 km hasta 10 km.</string>
+    <string name="improve">MEJÓRATE</string>
+    <string name="improve_description">Esta modalidad te permite mejorar tus tiempos sin necesidad de estar en un Plan de Entrenamiento.</string>
+    <string name="title_quick_start">CORRE SIN LÍMITES</string>
+    <string name="quick_start_subtitle">Sin necesidad de planes; se libre al correr como tu quieras.</string>
+    <string name="mejorate_subline">Compite contra ti mismo.</string>
+    <string name="mejorate_subtitle">Mejórate es un plan que te permite superarte a ti mismo.</string>
+    <string name="start_button_text"><i>COMENZAR</i></string>
+    <string-array name="gender">
+        <item>Masculino</item>
+        <item>Femenino</item>
+    </string-array>
+
+    <string name="improve_goal_mts">Objetivo/Real (m)</string>
+    <string name="improve_goal_min">Objetivo/Real (min)</string>
+
+    <string-array name="units">
+        <item>Métrico</item>
+        <item>Imperial</item>
+    </string-array>
+    <string name="km_placeholder">0.00</string>
+    <string name="km_title">kilómetros</string>
+    <string name="rate">Ritmo</string>
+    <string name="km_title_result">kilómetros</string>
+    <string name="calories">Calorías</string>
+    <string name="show_map">Mostrar mapa</string>
+    <string name="hide_map">Ocultar mapa</string>
+    <string name="invalida_date">Fecha de nacimiento no válida</string>
+    <string name="dashboard">Dashboard</string>
+    <string name="profile">Perfil</string>
+    <string name="settings">Ajustes</string>
+    <string name="community">Comunidad</string>
+    <string name="mode">Cambiar modo a:</string>
+    <string name="badges">Insignias</string>
+    <string name="outdoor_plan">PLAN OUTDOOR</string>
+    <string name="outdoor_improve">MEJÓRATE</string>
+    <string name="Intervalos_fuertes">Intervalos fuertes</string>
+    <string name="entrenamiento_prueda">PRUEBA</string>
+    <string name="entrenamiento_preparacion">PREPARACIÓN</string>
+    <string name="entrenamiento_inicial">PRUEBA INICIAL</string>
+    <string name="entrenamiento_final">PRUEBA FINAL</string>
+    <string name="entrenamiento_fallido">No completado</string>
+    <string name="completed">Completado</string>
+    <string name="entrenamiento_logrado">Exitoso</string>
+    <string name="dist_min">Para completar con éxito este entrenamiento debes correr una distancia mínima de: </string>
+    <string name="porcentaje_completado">&#37; completado</string>
+
+
+    <!-- ************************
+    ******************************
+    Textos Ajustes
+    ******************************
+    ****************************** -->
+
+    <string name="restore_buys">Restaurar compras</string>
+    <string name="tutorial">Tutorial</string>
+    <string name="help">Ayuda</string>
+    <string name="about_us">Acerca de nosotros </string>
+    <string name="rate_app">Califica esta aplicación</string>
+    <string name="report_error">Reportar un error</string>
+    <string name="terms_use">Términos de uso</string>
+    <string name="privacy_notice">Aviso de privacidad</string>
+    <string-array name="tutorials">
+        <item>Comenzar</item>
+        <item>Planes Outdoor</item>
+        <item>Planes Indoor</item>
+    </string-array>
+    <string name="about_us_fragment"><b>NOSOTROS</b>\n\nCon los años hemos viajado por el mundo y competido en las carreras y maratones más importantes.\n\nNos dimos cuenta que podíamos compartir nuestra experiencia y adrenalina de las grandes atmósferas mediante la creación de una aplicación que trae la belleza de la naturaleza combinado con el turismo de las capitales del mundo.\n\n<b>*RUNiN</b> es una forma alternativa de rutina de ejercicio utilizando todas las cualidades de los teléfonos inteligentes.\n\nNuestro objetivo es hacerte viajar por el mundo mientras te ejercitas de manera eficiente.</string>
+    <string name="about_us_fragment2"><b>NOSOTROS</b>\n\n*RUNiN app es una alternativa de entrenamiento para corredores.\n\nNuestro objetivo es motivarte y plantearte nuevos retos mientras mejoras tu rendimiento.\n\nCorre por el mundo, hoy disponible Ciudad de México y París, disfrutando de nuestros planes de entrenamiento hechos a tu medida desde tu caminadora o sal, crea tu ruta y prepárate para una carrera.\n\nSigue tus resultados y desafía a tus amigos a mejorarlos.\n\n<b>HISTORIA</b>\n\nDurante mis viajes salía a correr para distraerme. Me di cuenta de que descubriendo las calles de una nueva ciudad me animaba a correr más de lo que yo creía ser capaz.\n\nEs por eso que decidí buscar replicar esa experiencia para poder seguir descubriendo cuando quisiera. Entendí que la monotonía mental es más fuerte que el cansancio de mis piernas.\n\nHicimos esta app porque buscamos que nunca dejes de estar motivado para alcanzar tus metas y siempre tengas a la mano un entrenador que de seguimiento a tus logros.\n\n<b>Niveles Indoor</b>\n\nDebutante - Beginner\nCompetidor - Competitor\nAtleta - Athlete\nCorredor – Runner\n\n<b>Funcionalidades Outdoor</b>\n\nQuick start- Quick Start\nMejórate- Improve\nPlan de entrenamiento- Training plan</string>
+    <string name="help_us_fragment"><b>AYUDA</b>\n\n<b>Entrena para la carrera</b>\n\nAquí puedes desarrollar las tres principales habilidades de *RUNiN que son músculo, resistencia y ritmo.\n\nCrea tu camino para ser un corredor completando las seis rutinas finales y prepárate para la gran carrera.\n\nTodas las rutinas son diferentes en duración, pasos, intensidad y objetivos.\n\nNuestros entrenadores profesionales han diseñado un método alternativo que busca alcanzar tu nivel de corredor potencial.\n\nCada rutina es adaptada a las características personales de nuestros usuarios.\n\nCuando completas las rutinas serás premiado con puntos de entrenamiento. Colecciónalos y preparate para la carrera.\n\n*RUNiN te guiará en cada paso, dándote suficiente tiempo para cambiar manualmente la velocidad y la inclinación de tu caminadora.\n\nRecomendamos altamente que cambies la velocidad y la inclinación usando el teclado numérico en tu caminadora.\n\n<b>Carrera</b>\n\nUna vez que llenes las tres barras de habilidades de *RUNiN, serás invitado a participar en la carrera *RUNiN.\n\nEn esta versión decidimos empezar con la Ciudad de México, una de las ciudades más grandes en el mundo.\n\nÚnete a los corredores que han participado en esta carrera y disfruta de sus famosos monumentos y de su vista histórica, sintiendo la atmósfera e intensidad de una verdadera carrera urbana.</string>
+    <string name="terms_fragment"><b>TÉRMINOS Y CONDICIONES</b>\n\nBienvenido a *RUNiN app.  Queremos brindarte una alternativa de entrenamiento que sea apasionante y al mismo tiempo ayude a mejorar tus rendimientos al correr.\n\nGracias por darnos la oportunidad de ser tu entrenador personal.\n\nAl usar esta aplicación, aceptas los términos a continuación.\n\n<b>Quiénes pueden usar *RUNiN app</b>\n\nLa aplicación está diseñada para todas las personas que quieren correr con un plan de entrenamiento creado por expertos. Es importante consultar a un especialista que garantice las capacidades físicas del usuario para ejecutar ejercicios de alta intensidad.  Al usar nuestros Servicios, acepta, declara y garantiza que recibió el consentimiento de su médico para participar en programas de bienestar o estado físico, ejercicio físico, ejercitación o cualquiera de las actividades relacionadas puestas a disposición suya con relación a los servicios.\n\nLa edad mínima para utilizar nuestra aplicación es de 18 años, aunque la aplicación no limita a usuarios mayores a 13 años.   *RUNiN app no se hace responsable de compras de menores de edad sin el consentimiento de un adulto supervisor.\n\nNuestros entrenamientos fueron realizadas por expertos en la materia y corredores con amplio kilometraje. Sus consejos y planes son los que te guiaran a mejorar tus rendimientos. Pero esto no garantiza al 100% que puedas realizar los objetivos de estos planes.\n\nBuscaremos siempre darte un seguimiento adecuado para poder mejorar tus expectativas de rendimiento, pero también dependerá de que respetes nuestras instrucciones para evitar lesiones y bajos rendimientos.  El descanso viene implícito en nuestras semanas de entrenamiento, no te recomendamos hacer más de cinco sesiones a la semana y creemos que descansar un día después de cada sesión también potencializará tu rendimiento.\n\n<b>Sobre lesiones</b>\n\nLos entrenamientos están constituidos por fases y te llevarán de la mano para evitar lesiones musculares. Es importante que consideres una buena alimentación e hidratación con un especialista.   *RUNiN app no se hace responsable de lesiones al estar utilizando nuestros servicios.\n\n<b>Sobre los resultados de tus métricas. </b>\n\nEstamos trabajando para hacer más exactos en tus resultados. Próximamente, incorporaremos sensores y hardware que nos ayudarán a definir estas métricas.\n\nEsta aplicación y sus componentes se ofrecen únicamente con fines informativos; esta aplicación no se hace responsable de la exactitud, utilidad o disponibilidad de cualquier información que se transmita o ponga a disposición a través de la misma; no será responsable por cualquier error u omisión en dicha información. \n\n<b>Actualizaciones y permiso para notificaciones.</b>\n\nEstamos en constante evolución y por lo tanto buscaremos siempre brindarte un mejor servicio.  Es por eso que queremos mantenerte siempre al tanto de nuestros cambios y preguntaremos siempre tu consentimiento para mandarte notificaciones.\n\n<b>Sobre propiedad intelectual.</b>\n\nLa página, la aplicación y su contenido original, las características y la funcionalidad son propiedad de *RUNiN app y están protegidos por derechos de autor, marcas registradas, secretos comerciales y demás leyes de propiedad intelectual o de derechos de propiedad.\n\n<b>Relación con anunciante.</b>\n\nNuestros servicios se complementan con brindarte beneficios de otras marcas, estas a su vez nos compensan y remuneran de manera económica.  Al comprar alguno de los productos de la aplicación, tu puedes elegir no ver más estos anuncios.  De ninguna manera, *RUNiN app es responsable de la calidad de los servicios o productos del anunciante.  No obstante, siempre buscaremos anuncios productos y servicios en los cuales confiemos.\n \n<b>Política de pago</b>\n\nNuestros productos y servicios son de única compra, pero podrás utilizarlos infinitamente. Los medios de cobro son a través de las plataformas iTunes Store y Google play dependiendo el dispositivo donde se descargue.  El proceso de reembolso será únicamente si no se te desbloquearon los productos que adquiriste.   Rescisión de acceso a tu cuenta. \n\nPodemos cancelar su acceso a la aplicación, sin causa o aviso, lo cual podrá resultar en la incautación y destrucción de toda la información que esté asociada con su cuenta.  Todas las disposiciones de este acuerdo que, por su naturaleza, deban sobrevivir a la cancelación sobrevivirán a ella, incluyendo sin limitación, las disposiciones de propiedad, renuncias de garantía, indemnización y limitaciones de responsabilidad\n\n<b>Sobre cambios en nuestras políticas y condiciones.</b>\n\n*RUNiN app se reserva el derecho de modificar estas condiciones de vez en cuando según lo considere oportuno; asimismo, el uso permanente de la aplicación significará su aceptación de cualquier ajuste a tales términos.  Si hay algún cambio en nuestra política de privacidad, anunciaremos en nuestra página principal y en otras páginas importantes de nuestro sitio que se han hecho tales cambios. Si hay algún cambio en nuestra página respecto a la manera en que usamos la información de identificación personal de nuestros clientes, enviaremos una notificación por correo electrónico a aquellos que sean afectados por el cambio. Todo cambio en nuestra política de privacidad se publicará en nuestra página 10 días antes de que tales cambios ocurran. Por lo tanto, se le recomienda volver a leer esta declaración de manera regular.\n\n<b>Reglas de la comunidad *RUNiN</b>\n\nAunque estrictamente prohibimos el contenido discriminatorio o abusivo, o ataques o insultos, *RUNiN app no se hace responsable del contenido creado y enviado por nuestros usuarios.\n\nTambién prohibimos:\n\n1.- Divulgar información comercial sin autorización\n2.- Enviar contenido pornográfico \n3.- Contenido ofensivo y que pueda ocasionar daños a menores\n4.-Contenido propagandístico, político o religioso \n5.-Contenido que incumpla el deber legal\n6.-Prohibido hacerse pasar por alguno de nuestros representantes o entrenadores de *RUNiN\n7.-Que viole las reglas de propiedad intelectual de otros\n\nSi determinamos que está violando las Reglas de la comunidad *RUNiN o que de lo contrario incumplió con los Términos, podemos tomar acciones para responder a la cuestión, inclusive entre otras, rescindir su derecho a usar los Servicios, eliminar su Contenido generado por el usuario, tomar medidas legales contra usted (en cuyo caso usted acepta que podemos recuperar los costos y honorarios razonables de abogados) o divulgar información a autoridades encargadas de hacer cumplir la ley. Nos reservamos el derecho a hacer cumplir, o no hacer cumplir estas Reglas de la comunidad *RUNiN a nuestro criterio exclusivo, y estas no crean un deber o una obligación contractual para que actuemos de una manera en especial.</string>
+    <string name="privacy_fragment">FERNEL ARVIZU CHU, mejor conocido como *RUNiN App, con domicilio en calle AVENIDA INSURGENTES SUR #377 INT 302, colonia HIPODROMO, Ciudad de México, municipio o delegación CUAUHTEMOC, C.P. 03100, MEXICO, y portal de internet http://www.runinapp.com.mx, es el responsable del uso y protección de sus datos personales, y al respecto le informamos lo siguiente:\n\n<b>¿Para qué fines utilizaremos sus datos personales?</b>\n\nDe manera adicional, utilizaremos su información personal para las siguientes finalidades secundarias que no son necesarias para el servicio solicitado, pero que nos permiten y facilitan brindarle una mejor atención:\n\n- Creación de un perfil del usuario        \n- Cálculo de calorías        \n- Creación de comunidad para compartir resultados\n\nEn caso de que no desee que sus datos personales se utilicen para estos fines secundarios, indíquelo a continuación:\n\nNo consiento que mis datos personales se utilicen para los siguientes fines:\n\n- Creación de un perfil del usuario       \n- Cálculo de calorías\n- Creación de comunidad para compartir resultados\n\nLa negativa para el uso de sus datos personales para estas finalidades no podrá ser un motivo para que le neguemos los servicios y productos que solicita o contrata con nosotros.\n\n<b>¿Qué datos personales utilizaremos para estos fines?</b>\n\nPara llevar a cabo las finalidades descritas en el presente aviso de privacidad, utilizaremos los siguientes datos personales:\n\n- Nombre\n- Fecha de nacimiento\n- Edad\n- Fotografía\n- Estatura\n- Peso\n- Correo electrónico\n\n¿Cómo puede acceder, rectificar o cancelar sus datos personales, u oponerse a su uso?\n\nUsted tiene derecho a conocer qué datos personales tenemos de usted, para qué los utilizamos y las condiciones del uso que les damos (Acceso). Asimismo, es su derecho solicitar la corrección de su información personal en caso de que esté desactualizada, sea inexacta o incompleta (Rectificación); que la eliminemos de nuestros registros o bases de datos cuando considere que la misma no este siendo utilizada adecuadamente (Cancelación); así como oponerse al uso de sus datos personales para fines específicos (Oposición). Estos derechos se conocen como derechos ARCO.\n\nPara el ejercicio de cualquiera de los derechos ARCO, usted deberá presentar la solicitud respectiva a través del siguiente medio:\n\nenviar un correo electrónico a contact@runinapp.com\n\nPara conocer el procedimiento y requisitos para el ejercicio de los derechos ARCO, ponemos a su disposición el siguiente medio:\n\nenviar un correo electrónico a contact@runinapp.com\n\nLos datos de contacto de la persona o departamento de datos personales, que esta· a cargo de dar trámite a las solicitudes de derechos ARCO, son los siguientes:\n\na) Nombre de la persona o departamento de datos personales: FERNEL ARVIZU CHU      \nb) Domicilio: calle AVENIDA INSURGENTES SUR #377 INT 302, colonia HIPODROMO, Ciudad de México, municipio o delegación CUAUHTEMOC, C.P. 06100, en la entidad de DF, país MEXICO\nc) Correo electrónico: contact@runinapp.com\n\nUsted puede revocar su consentimiento para el uso de sus datos personales\n\nUsted puede revocar el consentimiento que, en su caso, nos haya otorgado para el tratamiento de sus datos personales. Sin embargo, es importante que tenga en cuenta que no en todos los casos podremos atender su solicitud o concluir el uso de forma inmediata, ya que es posible que por alguna obligación legal requiramos seguir tratando sus datos personales. Asimismo, usted deber considerar que para ciertos fines, la revocación de su consentimiento implicar· que no le podamos seguir prestando el servicio que nos solicite, o la conclusión de su relación con nosotros.\n\nPara revocar su consentimiento deber· presentar su solicitud a través del siguiente medio:\n\ncontact@runinapp.com\n\nPara conocer el procedimiento y requisitos para la revocación del consentimiento, ponemos a su disposición el siguiente medio:\n\ncontact@runinapp.com\n\n<b>¿Cómo puede limitar el uso o divulgación de su información personal?</b>\n\nCon objeto de que usted pueda limitar el uso y divulgación de su información personal, le ofrecemos los siguientes medios:\n\ncontact@runinapp.com\n\n<b>¿Cómo puede conocer los cambios en este aviso de privacidad?</b>\n\nEl presente aviso de privacidad puede sufrir modificaciones, cambios o actualizaciones derivadas de nuevos requerimientos legales; de nuestras propias necesidades por los productos o servicios que ofrecemos; de nuestras prácticas de privacidad; de cambios en nuestro modelo de negocio, o por otras causas.\n\nNos comprometemos a mantenerlo informado sobre los cambios que pueda sufrir el presente aviso de privacidad, a través de: Cambios dentro de la App.\n\nEl procedimiento a través del cual se llevaron a cabo las notificaciones sobre cambios o actualizaciones al presente aviso de privacidad es el siguiente:\n\nPublicación de un anuncio dentro de la App\n\nÚltima actualización: 14/09/2016</string>
+    <string name="age">Edad</string>
+    <string name="level">Nivel</string>
+    <string name="massage_end_routine">Estás seguro que deseas terminar la rutina</string>
+    <string name="title_end_routine">Terminar rutina</string>
+    <string name="stop"><i>PARAR</i></string>
+    <string name="restart">REANUDAR</string>
+    <string name="finish"><i>TERMINAR</i></string>
+    <string name="title_profile_validate">Guardar datos de perfil</string>
+    <string name="message_profile_validate">Por favor ingresa todos los datos solicitados correctamente.</string>
+    <string name="next_button"><i>SIGUIENTE</i></string>
+    <string name="tutorial_next">SIGUIENTE</string>
+    <string name="finish_button"><i>TERMINAR</i></string>
+    <string name="continue_button"><i>SEGUIR</i></string>
+    <string name="time">Tiempo</string>
+    <string name="speed">Velocidad</string>
+    <string name="speed_max">Velocidad máxima</string>
+    <string name="qs_results">QUICK START - RESULTADO</string>
+
+
+    <!-- ************************
+    ******************************
+    Textos adFree
+    ******************************
+    ****************************** -->
+    <string name="addCloseTitle">AdFree</string>
+    <string name="addCloseBody">Estás a punto de comprar la extensión AdFree.\n\n¿Estás de acuerdo?</string>
+    <string name="addClosePositive">Comprar</string>
+    <string name="addCloseNegative">Para poder comprar esta pista debes correr la anterior.</string>
+
+    <!-- ************************
+    ******************************
+    Textos Compra
+    ******************************
+    ****************************** -->
+    <string name="resultAddClosePositiveTitle">Hecho</string>
+    <string name="resultAddClosePositiveBody">Tu compra fue realizada correctamente</string>
+    <string name="resultAddCloseNegativeTitle">Error</string>
+    <string name="resultAddCloseNegativeBody">No hemos podido realizar el cargo.\nPor favor intenta nuevamente.</string>
+    <string name="resultAddCloseButton">Aceptar</string>
+    <string name="progressAddCloseTitle">Validando</string>
+    <string name="progressAddCloseBody">Estamos validando tu compra</string>
+    <string name="addRestoreTitle">Restaurar Compras</string>
+    <string name="addRestoreBody">Si continuas se restaurarán todas tus compras sin cobro alguno.\n\n¿Te gustaría continuar?</string>
+    <string name="addRestorePositive">Continuar</string>
+    <string name="addRestoreNegative">No por ahora</string>
+    <string name="addConfirmedPositiveTitle">Restaurar Compras</string>
+    <string name="addConfirmedPositiveBody">Todas tus compras se han restaurado correctamente.</string>
+    <string name="addConfirmedPositive">Aceptar</string>
+
+
+    <string name="profileMode">Cambiar\nmodo a:</string>
+
+
+    <!-- ************************
+    ******************************
+    Textos Musica
+    ******************************
+    ****************************** -->
+    <string name="musicTitle">Música</string>
+    <string name="musicSelect">Seleccionar</string>
+    <string name="musicSelectTitle">SELECCIONA EL SERVICIO</string>
+    <string name="musicSelectMessage">Selecciona la biblioteca de donde escucharás tus canciones favoritas. Puedes escoger entre Play Music o Spotify*</string>
+    <string name="musicSelectfooter">*En el caso de Spotify, debes ser usuario premium del servicio para poder acceder a esta característica.</string>
+    <string name="musicSelectButton"><i>CONFIRMAR</i></string>
+    <string name="selectButton">CONFIRMAR</string>
+    <string name="musicPlaylist">Seleccionar un Playlist</string>
+    <string name="musicPowerSong">PowerSong</string>
+    <string name="musicAleatory">Aleatorio</string>
+    <string name="musicPlayMusic">Play Music</string>
+    <string name="musicSpotify">Spotify</string>
+    <string name="ok">OK</string>
+
+
+    <!-- ************************
+    ******************************
+    Map google
+    ******************************
+    ****************************** -->
+    <string name="google_maps_key" translatable="false">AIzaSyBt6NiKqw0iks1zooJKVQb4fDpZVRst6tc</string>
+
+    <!-- ************************
+    ******************************
+    Textos Indoor
+    ******************************
+    ****************************** -->
+    <string name="completed_race">Carrera completada</string>
+
+    <string name="readjust">REAJUSTA LA CAMINADORA</string>
+    <string name="readjust_ritmo">RITMO</string>
+    <string name="readjust_pendiente">PENDIENTE</string>
+    <string name="readjust_place_km">km/h</string>
+    <string name="readjust_place_pendiente">°</string>
+
+    <string name="tab_interval">Intervalo</string>
+    <string name="tab_status">Estatus</string>
+    <string name="tab_req">Requerido</string>
+    <string name="tab_objetivo">Objetivo</string>
+    <string name="tab_average">Promedio</string>
+    <string name="tab_average_prom">Prom</string>
+    <string name="average_km">km/h</string>
+    <string name="facebook_app_id" translatable="false">244131719386451</string>
+    <string name="fb_login_protocol_scheme" translatable="false">fb244131719386451</string>
+    <string name="detail_program">Detalle del programa</string>
+    <string name="plantype_title">Selecciona tu tipo de plan</string>
+    <string name="detail_plans">No todas las personas son iguales, cada una necesita de un plan especial para sus objetivos y enfocado a sus capacidades.</string>
+    <string name="detail_plansbot">Con unos pocos pasos podemos enfocarte al mejor plan de entrenamiento, dependiendo de tus objetivos.</string>
+    <string name="distancetitle">ENFOCADO EN LA DISTANCIA</string>
+    <string name="speedtitle">ENFOCADO A VELOCIDAD</string>
+    <string name="distancedesc">Plan diseñado para incrementar la distancia a la que puedes correr. Esto te permitirá correr tus primeros 5km o incluso un maratón.</string>
+    <string name="speeddesc">Diseñado para mejorar la velocidad a la que corres. Es un plan hecho para que incrementes gradualmente tu velocidad.</string>
+
+    <string name="plan_see_more">Ver estructura del plan</string>
+    <string name="focus_distance">Plan enfocado a la distancia. Plan diseñado para incrementar la distancia a la que puedes correr. Esto te permitirá correr tus primeros kilómetros de una forma paulatina para llegar a la meta.</string>
+
+    <string name="title_mejorate">MEJÓRATE</string>
+    <string name="distance_title">SELECCIONA LA DISTANCIA</string>
+    <string name="distance_time_text">Selecciona el tiempo en que deseas correr la meta</string>
+    <string name="distance_question">¿Cuánto quieres correr hoy?</string>
+    <string name="coach_title">Coach</string>
+    <string name="pace_title">Selecciona tu paso</string>
+    <string name="pace_desc">Para determinar la combinacion correcta entre workouts e intensidad, debemos saber que tan rapido corres/caminas en cierta distancia</string>
+    <string name="level_desc">Cada etapa consta de una cantidad definida de entramientos. Para poder seguir a la siguiente etapa debes concretar más del 60% de los entrenamientos y superar la prueba final.</string>
+    <string name="avg_pace">Estimaremos que tan rápido eres.</string>
+    <string name="avg_pacetitle">Paso promedio</string>
+    <string name="six_pacetitle">Menos de 6 min por km.</string>
+    <string name="five_pacetitle">Entre 5:00 y 6:00 min por km.</string>
+    <string name="one_pacetitle">Mas de 5:00 min por km.</string>
+    <string name="custom_pacetitle">Personalizado</string>
+    <string name="custom_pacedesc">Ingresa tiempo y distancia de tu carrera reciente</string>
+    <string name="init_race">En sus marcas</string>
+    <string name="km_abrv">km</string>
+    <string name="m_abrv">m</string>
+    <string name="speed_km_h">%1$.1f km/h</string>
+    <string name="distance_km">%1$.1f km</string>
+    <string name="distance_meters">%1$.0f m</string>
+    <string name="speed_abrv">km/h</string>
+    <string name="goals_titletrack">¿Qué lograrás?</string>
+    <string name="button_run">CORRER</string>
+    <string name="button_gettrack">Obtener Pista</string>
+    <string name="location_title">Ubicación</string>
+    <string name="title_specs">Especificaciones</string>
+    <string name="badgestowin_title">Insignias a ganar</string>
+    <string name="runner_newbie">Corredor Novato</string>
+    <string name="should_completedemo">Completa el demo</string>
+    <string name="should_validweight">Ingresa un peso entre 40 y 180</string>
+    <string name="should_validheight">Ingresa una altura entre 90 y 230</string>
+
+
+    <string name="stillthere">¡CLARO!</string>
+    <string name="stilltitle">¿SIGUES AHÍ?</string>
+    <string name="stillstart">Sólo te estaba\nprobando yo a ti</string>
+    <string name="stillbreak">Dame un respiro</string>
+    <string name="cancel">Cancelar</string>
+    <string name="etapa1">"La primera etapa te ayuda a prevenir lesiones, acostumbrarte a las distancias y tiempos largos.\n\n \nCada etapa es importante para ayudarte a llegar a tu meta.\n    "</string>
+
+    <string name="demo_select_description">La primera etapa te ayuda a prevenir lesiones, acostumbrarte a las distancias y tiempos largos.</string>
+    <string name="higherFaster_select_description">La primera etapa te ayuda a prevenir lesiones, acostumbrarte a las distancias y tiempos largos.</string>
+
+    <string name="fb_text">Conecta con tus contactos en facebook y agrega emoción al mismo tiempo que cumples tus metas.</string>
+    <string name="ubicacion_demo">El Ocotal. Ciudad de México, MX.</string>
+    <string name="ubicacion_higher">El Ocotal. Ciudad de México, MX.</string>
+    <string name="ubicacion_harder">Circuito Gandhi, Ciudad de México, MX.</string>
+    <string name="ubicacion_further">Bosque de Tlalpan, Ciudad de México, MX.</string>
+    <string name="especificacion_demo">• Programa especial de entrenamiento para principiantes.\n• Perfecto para sesiones de cardio.\n\n</string>
+    <string name="especificacion_higher">• Programa de velocidad y fitness.\n• Obtén fortaleza mental.\n\n</string>
+    <string name="especificacion_harder">• Programa de resistencia y poder.\n• Obtén intensidad.</string>
+    <string name="especificacion_further">• Programa de impulso y fuerza.\n• Obtén control corporal.\n\n</string>
+    <string name="detalles_1">Caminar</string>
+    <string name="detalles_2">Trote</string>
+    <string name="detalles_3">Caminar rápido</string>
+    <string name="detalles_4">Correr</string>
+    <string name="detalles_5">Enfriamiento</string>
+
+    <!-- badges -->
+    <string name="newbie_badge">Siempre es un placer ver nuevos jugadores.</string>
+    <string name="boost_badge">Es el primero de varios retos por delante.</string>
+    <string name="endurance_badge">Vamos por buen camino, estás demostrando tu entrega.</string>
+    <string name="fitness_badge">Bueno, bueno. Al parecer eres todo un adonis fitness.</string>
+    <string name="muscle_badge">No hay cuerpo imposible, sino mente incapaz.</string>
+    <string name="power_badge">Es doloroso continuar, pero insoportable detenerse.</string>
+    <string name="resistance_badge">Nunca pares, nunca te conformes.</string>
+    <string name="rythim_badge">La coordinación produce el ritmo, algo que tu lograste.</string>
+    <string name="speed_badge">Lo importante es saber quién eres y a dónde quieres llegar.</string>
+    <string name="strenght_badge">Quieres ser grande, haz entrenado como ellos.</string>
+
+
+    <string name="demoRecTitle">Principiante</string>
+    <string name="progressTitle">Progreso</string>
+    <string name="advance">Ingresa tus resultados de hoy</string>
+    <string name="improve_question">¿En qué te quieres enfocar?</string>
+    <string name="improve_desc">Con unos pocos pasos podemos enfocarte al mejor plan de entrenamiento, dependiendo de tus objetivos.</string>
+    <string name="improve_dist">DISTANCIA</string>
+    <string name="improve_dist_desc">Seleccionando el tipo distancia, estarás mejorando el tiempo en que corres cierta cantidad de kilómetros. Esta tipo de enfoque se recomienda para los corredores que busquen una mejorar en relación tiempo/distancia.</string>
+    <string name="improve_cal">CALORÍAS</string>
+    <string name="improve_cal_desc">Hay muchas variaciones de los pasajes de Lorem Ipsum disponibles, pero la mayoría sufrió alteraciones en alguna manera, ya sea por que se le agresó humor.</string>
+    <string name="improve_historial">Historial</string>
+    <string name="accept_plan">ACEPTAR ESTE PLAN</string>
+    <string name="change_plan">CAMBIAR PLAN</string>
+    <string name="text_recommendation">Basado en tus respuestas, nuestra recomendacion es que comiences con:</string>
+    <string name="plan_recommendation">El plan de 5k es para principiantes. Este plan es recomendado si estás iniciando como corredor y quieres competir en carreras de 5k o 3k. El plan está diseñado para minimizar los riesgos como corredor novato. La duración del programa puede ser entre 8 y 10 semanas.</string>
+
+
+    <!-- planes entrenamiento -->
+    <string name="plan">PLAN</string>
+    <string name="plans">Planes</string>
+    <string name="start_plan">COMENZAR CON ESTE PLAN</string>
+    <string name="desc_plan">Crea tu plan, selecciona fecha de inicio, fin y los días que te gustaría entrenar (3&#8211;6 días de preferencia).</string>
+
+    <string name="plan_recommendation_3k">El plan de 3k es para principiantes. Este plan es recomendado si estás iniciando como corredor y quieres competir en carreras de 5k o 3k. El plan está diseñado para minimizar los riesgos como corredor novato.</string>
+    <string name="plan_recommendation_5k">El plan de 5k es para corredores intermedios. Este plan es recomendado si ya tienes experiencia como corredor y quieres competir en carreras de 5k.</string>
+    <string name="plan_recommendation_10k">El plan de 10k es para corredores experimentados. Este plan es recomendado si ya tienes buena experiencia como corredor y quieres competir en carreras de 10k.</string>
+    <string name="plan_recommendation_5k_plus">El plan de 5k Plus es para corredores intermedios. Este plan es recomendado si ya tienes experiencia como corredor y quieres competir en carreras de 5k enfocándote en la velocidad.</string>
+    <string name="plan_recommendation_10k_plus">El plan de 10k Plus  es para corredores experimentados. Este plan es recomendado si ya tienes buena experiencia como corredor y quieres competir en carreras de 10k enfocándote en la velocidad.</string>
+
+
+    <string name="desc_plan_corto">El plan corto está pensado en corredores que ya tengan experiencia en este programa. Sólo se corren los circuitos obligatorios.</string>
+    <string name="desc_plan_largo">Al seleccionar el plan largo correrás los circuitos completos que dicta el programa. Esto es recomendable sólo para corredores nuevos en el programa.</string>
+
+    <string name="plan_3k">El plan 3k está pensado en corredores novatos.</string>
+    <string name="plan_5k_largo">El plan 5k largo está pensado en corredores que no tengan experiencia en este programa.</string>
+    <string name="plan_5k_corto">El plan 5k corto está pensado en corredores que ya tengan experiencia en este programa. Sólo se corren los circuitos obligatorios.</string>
+    <string name="plan_10k_largo">El plan 10k largo está pensado en corredores que no tengan experiencia en este programa.</string>
+    <string name="plan_10k_corto">El plan 10k corto está pensado en corredores que ya tengan experiencia en este programa. Sólo se corren los circuitos obligatorios.</string>
+    <string name="plan_5k_plus_largo">El plan 5k+ largo está pensado en corredores que ya tengan experiencia en programas anteriores como 3k, 5k o 10k.</string>
+    <string name="plan_5k_plus_corto">El plan 5k+ corto está pensado en corredores que ya tengan experiencia en el programa 5k+. Sólo se corren los circuitos obligatorios.</string>
+    <string name="plan_10k_plus_largo">El plan 10k+ largo está pensado en corredores que ya tengan experiencia en programas anteriores como 3k, 5k o 10k.</string>
+    <string name="plan_10k_plus_corto">El plan 10k+ corto está pensado en corredores que ya tengan experiencia en el programa 10k+. Sólo se corren los circuitos obligatorios.</string>
+
+
+    <!-- strings para la descripción de la carrera -->
+    <string name="desc_plan_3k">El Plan de 3K está diseñado para los corredores novatos que tengan cómo objetivo comenzar en el mundo de *RUNiN.</string>
+    <string name="desc_plan_5k">El Plan de 5K está diseñado para los corredores que tengan cómo objetivo una carrera de cinco kilómetros.</string>
+    <string name="desc_plan_10k">El Plan de 10K está diseñado para los corredores que tengan cómo objetivo una carrera de diez kilómetros.</string>
+    <string name="desc_plan_5k_plus">El Plan de 5K Plus está diseñado para los corredores que tengan cómo objetivo una carrera de cinco kilómetros pero enfocado a velocidad.</string>
+    <string name="desc_plan_10k_plus">El Plan de 10K Plus está diseñado para los corredores que tengan cómo objetivo una carrera de diez kilómetros pero enfocado a velocidad.</string>
+
+
+    <!-- descipcion etapas -->
+    <string name="etapa_uno">La primera etapa te ayuda a prevenir lesiones.</string>
+    <string name="etapa_dos">La segunda etapa te ayuda a comenzar con las distancias largas.</string>
+    <string name="etapa_tres">La tercera etapa te ayuda a comenzar con tiempos largos.</string>
+    <string name="etapa_cuatro">La cuarta etapa te ayuda a acostumbrarte las distancias largas.</string>
+    <string name="etapa_cinco">La quinta etapa te ayuda a acostumbrarte a tiempos largos.</string>
+    <string name="etapa_seis">La sexta etapa te ayuda mejorar distancias largas.</string>
+    <string name="etapa_siete">La séptima etapa te ayuda a mejorar en tiempos largos.</string>
+
+
+    <string name="fecha_inicio">Fecha de inicio</string>
+    <string name="fecha_fin">Fecha de fin</string>
+    <string name="select_day">Selecciona los días que te gustaría entrenar.</string>
+    <string name="my_programs">Programas adquiridos.</string>
+    <string name="buy_programs">Comprar programas</string>
+    <string name="desc_title_run">Descripción de la carrera</string>
+    <string name="desc_run">Plan diseñado para incrementar la distancia a la que puedes correr. Esto te permitirá correr tus primeros 5km o incluso un maratón.</string>
+    <string name="stage1">Etapa 1</string>
+    <string name="stage2">Etapa 2</string>
+    <string name="stage3">Etapa 3</string>
+    <string name="stage4">Etapa 4</string>
+    <string name="stage5">Etapa 5</string>
+    <string name="progress_dintancia">Distancia</string>
+    <string name="next_video">¡Prepárate para la siguiente fase!</string>
+    <string name="sin_carreras">Aún no tienes carreras</string>
+    <string name="alert_coach">Selecciona tiempo o distancia como opción de alertas del coach.</string>
+    <string name="alert_select">Selecciona "una" opción de alerta.</string>
+    <string name="alert_select_one">Selecciona "solo una" opción de alerta.</string>
+    <string name="alert_select_time">Selecciona el periodo de tiempo (minutos) que deseas correr.</string>
+    <string name="alert_select_distance_element">Selecciona la distancia que deseas correr. Puedes escoger entre kilómetros y metros.</string>
+    <string name="alert_select_distance">Selecciona la distancia a la que deseas que el coach te indique tu avance.</string>
+    <string name="plans_distances_desc">Tomando en cuenta que lo tuyo es la <b>distancia</b>, ahora definamos para que distancia te gustaría entrenar.</string>
+    <string name="plans_vel_desc">Tomando en cuenta que lo tuyo es la <b>velocidad</b>, ahora definamos para que distancia te gustaría entrenar.</string>
+    <string name="kilo3">3 kilómetros</string>
+    <string name="kilo5">5 kilómetros</string>
+    <string name="kilo10">10 kilómetros</string>
+    <string name="kilo5_plus">5+ kilómetros</string>
+    <string name="kilo10_plus">10+ kilómetros</string>
+    <string name="base64EncodedPublicKey" translatable="false">MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAk9El8UaAnEjgRxdq29KgOJw8ORNVQOAqKzfZ2RO75YWEbcT0/L9ltVvnzyX9Yg+ow4NKd99v/rE9NIz+wrQwIkkT4cDiujZP78sYT0iOOQjxiqTOPOqXrO6loitcwUt2LrZlVbO8WS2vAzf7gz/uvKshipwAcxThct+yH2R/eQ4ft6Oardrt4EBvL1saTW95WpDlsHzQttMPSmmhe0GAPDriWGj4LVov5e4sebpRqnrg9FazZN7N1NA66rJ5ujCFBbAuCCHUtdIBcFPrKozmNjjopNze9ioYOj9YAfQ9B9kNUdm+VwSsir7TIYxF+PjFluPtchyr0dNpaIHyflSIhQIDAQAB</string>
+    <string name="mes_1">Enero</string>
+    <string name="mes_2">Febrero</string>
+    <string name="mes_3">Marzo</string>
+    <string name="mes_4">Abril</string>
+    <string name="mes_5">Mayo</string>
+    <string name="mes_6">Junio</string>
+    <string name="mes_7">Julio</string>
+    <string name="mes_8">Agosto</string>
+    <string name="mes_9">Septiembre</string>
+    <string name="mes_10">Octubre</string>
+    <string name="mes_11">Noviembre</string>
+    <string name="mes_12">Diciembre</string>
+    <string name="entrenamiento_celda">Entrenamiento</string>
+    <string name="detail_1">Fase</string>
+    <string name="detail_2">Instrucción</string>
+    <string name="detail_3">Ritmo \n (min/km)</string>
+    <string name="detail_4">Tiempo \n (min)</string>
+    <string name="detail_5">Estatus</string>
+    <string name="day_1">Lunes</string>
+    <string name="day_2">Martes</string>
+    <string name="day_3">Miércoles</string>
+    <string name="day_4">Jueves</string>
+    <string name="day_5">Viernes</string>
+    <string name="day_6">Sábado</string>
+    <string name="day_7">Domingo</string>
+    <string-array name="unitsDistance">
+        <item>metros</item>
+        <item>kilómetros</item>
+    </string-array>
+    <string name="improve_selection">Según tu selección, para llegar a la meta tu ritmo debe ser:</string>
+    <string name="minxkm">Minutos por kilómetro </string>
+    <string name="return_btn">Calcular nuevamente</string>
+    <string name="seguro">¿ESTÁS SEGURO QUE QUIERES TERMINAR LA CARRERA?</string>
+    <string name="video_war">PERDERÁS TODO TU PROGRESO Y DEBERÁS COMENZAR NUEVAMENTE.</string>
+    <string name="ready">Listos</string>
+    <string name="LetsGo">Vamos</string>
+    <string name="cuestion_calories">¿Cuánto quieres quemar hoy?</string>
+    <string name="desc_calories">Selecciona las calorías que deseas quemar.</string>
+    <string name="lets_start_coach_is_active">Comenzamos, ¡El coach esta activado!</string>
+    <string name="starting_race">Iniciando carrera</string>
+    <string name="workout_paused">Carrera pausada</string>
+    <string name="cool_lets_continue">Estupendo, sigamos</string>
+    <string name="finished_race">Carrera terminada</string>
+    <string name="advance_percentage">Porcentaje de avance</string>
+    <string name="results">Resultados</string>
+    <string name="calories_burned_today">Calorías quemadas hoy</string>
+    <string name="calories_abbr">cal</string>
+    <string name="calories_total">Calorías totales</string>
+    <string name="newbie">Newbie</string>
+    <string name="boost">Boost</string>
+    <string name="endurance">Endurance</string>
+    <string name="kg">kg</string>
+    <string name="pound">lb</string>
+    <string name="fitness">Fitness</string>
+    <string name="muscle">Muscle</string>
+    <string name="resistance">Resistencia</string>
+    <string name="pace">Ritmo</string>
+    <string name="strength">Strength</string>
+    <string name="distance">Distancia</string>
+    <string name="beginner">Principiante</string>
+    <string name="competitor">Competidor</string>
+    <string name="athlete">Atleta</string>
+    <string name="runner_2">Corredor</string>
+    <string name="thanks_for_purchasing">Gracias por comprar</string>
+    <string name="product_already_purchased">Producto ya adquirido</string>
+    <string name="purchase_failure">Error en compra</string>
+    <string name="cannot_connect_to_google">No se ha podido conectar con el servidor de Google</string>
+    <string name="badge_not_obtained">Insignia no obtenida</string>
+    <string name="camera_permission_ask">Por favor permite el uso de la cámara para tomar tu foto de perfil</string>
+    <string name="camera_permission_denied">No se puede tomar la foto de perfil por que no se cuenta con permiso para abrir la cámara.</string>
+    <string name="camera_permission_denied_motion_detection">No se pudo activar la función de detección de movimiento por que no se cuenta con permiso de abrir la cámara.</string>
+    <string name="short_plan">Plan corto</string>
+    <string name="long_plan">Plan largo</string>
+    <string name="type_plan_title">Elige el tipo de plan</string>
+    <string name="resum">Resumen</string>
+    <string name="choose_picture">Elegir foto</string>
+    <string name="take_picture">Tomar foto</string>
+    <string name="profile_picture">Foto de perfil</string>
+    <string name="beginner_level_description">• Debutante: menos de dos sesiones de actividad física por semana.\n\n• Quieres estar más saludable y en mejor forma.\n\n• Actividades: Pilates, yoga, baile o aeróbics de alto impacto.</string>
+    <string name="competitor_level_description">• Semi-activo: dos o tres sesiones de actividad física por semana.\n\n• Quieres conseguir disciplina.\n\n• Actividades: aeróbics de alto impacto o práctica de deportes como voleibol.</string>
+    <string name="athlete_level_description">• Activo: cuatro o cinco sesiones de actividad física por semana.\n\n• Quieres resistencia y mejorar tu desempeño en tus actividades.\n\n• Actividades: correr esporádicamente carreras de 5km o 10km.</string>
+    <string name="runner_level_description">• Excelente condición física: más de cinco sesiones de actividad física por semana.\n\n• Estás acostumbrado a los retos y quieres mejorar tu ritmo.\n\n• Actividades: correr regularmente medio maratón o maratón.</string>
+    <string name="demo">Demo</string>
+    <string name="higher_and_faster">Higher and Faster</string>
+    <string name="harder_and_stronger">Harder and Stronger</string>
+    <string name="further_and_longer">Further and Longer</string>
+    <string name="purchase_canceled">Compra cancelada</string>
+    <string name="power">Poder</string>
+    <string name="career_not_finished">Lamentablemente no terminaste esta carrera</string>
+    <string name="not_completed_race">Carrera no completada</string>
+    <string name="not_finished_message">Hay veces que por factores externos no podemos terminar. No te desanimes, si este fue tu caso puedes comenzar nuevamente cuando lo desees.</string>
+    <string name="new_badge">Enhorabuena, \n Haz ganado una nueva insignia.</string>
+    <string name="select_your_music">Selecciona tu música</string>
+    <string name="download">Descarga</string>
+    <string name="downloading_please_wait">Descargando videos, por favor espera.</string>
+    <string name="download_failure">Error en descarga de videos, intenta más tarde.</string>
+    <string name="degree">grado</string>
+    <string name="degrees">grados</string>
+    <string name="demo_program_title">Demo</string>
+    <string name="demo_program_description">Completa el demo</string>
+    <string name="prepare_next_video_speak">Prepárate, reajusta la caminadora a %1$s kilómetros por hora y la pendiente a %2$s %3$s.</string>
+    <string name="manage_videos">Gestión de videos</string>
+    <string name="remove_videos">Puedes eliminar los videos de los programas para las pistas Indoor descargadas desde Ajustes > Gestión de videos. Una vez que hayas comprado las pistas puedes descargarlas nuevamente.</string>
+    <string name="remove">Eliminar</string>
+    <string name="downloadsInProgressCancel">¿Cancelar la descarga de los videos?</string>
+    <string name="select_kind_plan">Selecciona el tipo de plan de entrenamiento</string>
+    <string name="program_spinner_label">Selecciona el tipo de carrera</string>
+    <string name="resultados">Resultados</string>
+    <string name="minutos">Minutos</string>
+    <string name="videos_have_been_removed">Los videos se han eliminado.</string>
+    <string name="higher_and_faster_program1_description">Gana esta insignia corriendo fitness</string>
+    <string name="higher_and_faster_program2_description">Gana esta insignia corriendo velocidad</string>
+    <string name="harder_and_stronger_program1_description">Gana esta insignia corriendo poder</string>
+    <string name="harder_and_stronger_program2_description">Gana esta insignia corriendo resistencia</string>
+    <string name="further_and_longer_program1_description">Gana esta insignia corriendo impulso</string>
+    <string name="further_and_longer_program2_description">Gana esta insignia corriendo fuerza</string>
+    <string name="motion_detection">Detección de movimiento</string>
+    <string name="sin_cancion">Sin canción</string>
+    <string name="zero_min_per_km">00:00 /km</string>
+    <string name="motivation_message1">El paso más difícil de un corredor, es el primero que das fuera de la puerta.</string>
+    <string name="motivation_message2">No se exactamente cuánto tiempo me tome, pero eventualmente derrotaré a alguién.</string>
+    <string name="motivation_message3">La diferencia entre el corredor que termina el maratón y el que no lo hace, es mejor preparación y resistencia.</string>
+    <string name="motivation_message4">Si se trata de un kilómetro de 14 minutos o un kilómetro de 5 minutos, no importa… Sigue siendo un kilómetro ganado.</string>
+    <string name="motivation_message5">La motivación es una habilidad. Puede ser aprendida y practicada.</string>
+    <string name="zero_hours_zero_min">00:00</string>
+    <string name="improve_yourself_result">MEJÓRATE - RESULTADO</string>
+    <string name="result_training">RESULTADO - ENTRENAMIENTO %1$s</string>
+    <string name="result_training_plan">Entrenamiento %1$d - %2$s</string>
+    <string name="plan_objective_vs_achieved">Objetivo - %1$.1f km. Resultado %2$.1f km en %3$s</string>
+    <string name="years">años</string>
+    <string name="fill_all_the_fields">Llena todos los campos</string>
+    <string name="value_cannot_start_with_zero">El valor no puede comenzar con 0</string>
+    <string name="select_one_option">Selecciona una de las opciones</string>
+    <string name="kilometros_recorridos_hoy">kilómetros recorridos hoy</string>
+    <string name="km_totales_recorridos">km totales recorridos</string>
+    <string name="last_training">Último entrenamiento</string>
+    <string name="stage">ETAPA</string>
+    <string name="improve_yourself">MEJÓRATE</string>
+    <string name="progress">Progreso</string>
+    <string name="date">Fecha</string>
+    <string name="total">Total</string>
+    <string name="location_permission_denied">No se tiene permiso para acceder a la localización.</string>
+    <string name="read_external_storage_permission_denied">No se tiene permiso para acceder al almacenamiento externo.</string>
+    <string name="You_ran_x_first_kilometer_in_x_minutes">Has recorrido un kilómetro en %1$s minutos</string>
+    <string name="You_ran_x_first_kilometer_in_x_first_minute">Has recorrido un kilómetro en un minuto</string>
+    <string name="You_ran_x_first_kilometer_in_x_seconds">Has recorrido un kilómetro en %1$s segundos</string>
+    <string name="You_ran_x_kilometers_in_x_seconds">Has recorrido %1$s punto %2$s kilómetros en %3$s segundos</string>
+    <string name="You_ran_x_kilometers_in_x_minutes">Has recorrido %1$s punto %2$s kilómetros en %3$s minutos</string>
+    <string name="You_ran_x_kilometers_in_x_first_minute">Has recorrido %1$s punto %2$s  kilómetros en un minuto</string>
+    <string name="You_ran_x_kilometers_in_x_seconds_plan">Has recorrido %1$s kilómetros en %2$s segundos</string>
+    <string name="You_ran_x_kilometers_in_x_minutes_plan">Has recorrido %1$s kilómetros en %2$s minutos</string>
+    <string name="You_ran_x_kilometers_in_x_first_minute_plan">Has recorrido %1$s kilómetros en un minuto</string>
+    <string name="You_ran_x_meters_in_x_first_minutes">Has recorrido %1$s metros en un minuto</string>
+    <string name="You_ran_x_meters_in_x_seconds">Has recorrido %1$s metros en %2$s segundos</string>
+    <string name="You_ran_x_meters_in_x_minutes">Has recorrido %1$s metros en %2$s minutos</string>
+
+    <string name="You_ran_x_meters_in_one_minute_with_pace">Has recorrido %1$d metros en un minuto a un ritmo de %2$s por kilómetro.</string>
+    <string name="You_ran_x_meters_in_x_seconds_with_pace">Has recorrido %1$d metros en %2$d segundos a un ritmo de %3$s por kilómetro.</string>
+    <string name="You_ran_x_meters_in_x_minutes_with_pace">Has recorrido %1$d metros en %2$s a un ritmo de %3$s por kilómetro.</string>
+
+    <string name="total_routine">Rutina total</string>
+    <string name="zero">0</string>
+    <string name="one_more_km_1">Un kilómetro más recorrido, sigue adelante.</string>
+    <string name="one_more_km_2">Vamos por el siguiente kilómetro.</string>
+    <string name="one_more_km_3">Excelente, eres un gran corredor.</string>
+    <string name="congratulations_finished_race">Felicidades, terminaste la carrera</string>
+    <string name="dont_worry_you_can_try_again">No te preocupes, puedes volver a intentarlo.</string>
+    <!-- <string name="lest_pace">Tu ritmo es menor al requerido que es %s por kilómetro, baja un poco la intensidad.</string> -->
+    <string name="lest_pace">y tu ritmo es menor al requerido. Baja un poco la intensidad.</string>
+    <string name="equal_pace">y tu ritmo es el correcto, sigue así.</string>
+    <!-- <string name="more_pace">Tu ritmo es mayor al requerido que es %s por kilómetro, esfuérzate un poco más.</string> -->
+    <string name="more_pace">Tu ritmo es mayor al requerido esfuérzate un poco más.</string>
+    <string name="num_entre">%1$d/%2$d</string>
+    <string name="ver_programa">Ver programa</string>
+    <string name="eliminar_videos_higher_and_faster">Remover Higher and Faster</string>
+    <string name="eliminar_videos_harder_and_stronger">Remover Harder and Stronger</string>
+    <string name="eliminar_videos_further_and_longer">Remover Further and Longer</string>
+    <string name="fase_entrenamiento">Fase: %1$s</string>
+    <string name="instruccion_entrenamiento">Instrucción: %1$s</string>
+    <string name="ritmo_entrenamiento">Ritmo: %1$s /km</string>
+    <string name="ritmo_entrenamiento_simple">%1$s /km</string>
+    <string name="ultimo_paso">Has cumplido con el entrenamiento, puedes parar ahora.</string>
+    <string name="tiempo_total">Tiempo total</string>
+    <string name="esfuerzo">Esfuerzo</string>
+    <string name="network_error">Error conectando a la red.</string>
+    <string name="network_make_sure_is_ok">Asegúrate que tengas una conexión de red apropiada.</string>
+    <string name="connect_to_wifi">Por favor conéctate a una red WiFi</string>
+    <string name="effort_easy">Fácil</string>
+    <string name="effort_intermediate">Intermedio</string>
+    <string name="effort_difficult">Difícil</string>
+    <string name="demo_devel">Demo (Desarrollo)</string>
+    <string name="confirm_indoor_level"><![CDATA[Ahora que has terminado tu primera carrera,<br/>¿Crees que el nivel que seleccionaste es correcto?<br/>Tu nivel actual es <b>%1$s</b>.]]></string>
+    <string name="show_details">Muestra detalles</string>
+    <string name="share">Compartir</string>
+    <string name="send_to">Compartir con</string>
+    <string name="app_url">http://www.runinapp.com.mx/</string>
+    <string name="share_results">Compartir resultados</string>
+    <string name="results_per_category">Resultados por categoría</string>
+    <string name="time_lower">tiempo</string>
+    <string name="speed_lower">velocidad</string>
+    <string name="calories_lower">calorías</string>
+    <string name="distance_lower">distancia</string>
+    <string name="max_speed">vel. max</string>
+    <string name="tracking_title">Sensor de movimiento</string>
+    <string name="tracking_text">Con la finalidad de ayudarte con la rutina, *RUNiN implementa un sensor de movimiento durante la carrera.</string>
+    <string name="especificaciones_descripcion">Para un mejor uso de la rutina, es necesario que pongas en tu caminadora los siguentes parametros:</string>
+    <string name="pendiente">Pendiente</string>
+    <string name="music_before">Si no haz seleccionado tu música, lo puedes hacer desde aquí</string>
+    <string name="location_permission_rationale">Se requiere acceder a servicios de localización para conocer tu avance en la carrera.</string>
+    <string name="location_setting_inadequate_fix_them">No se tienen los permisos necesarios para obtener tu localización. Arréglalos en las preferencias de tu teléfono.</string>
+    <string name="instructions">Instrucciones</string>
+    <string name="hashtag_motivation_runin">#MotivaciónRunin</string>
+    <string name="n_minutes_per_kilometer">%1$s minutos por kilómetro</string>
+    <string name="meters">Metros</string>
+    <string name="state_n_trainint_n">ETAPA %1$d - ENTRENAMIENTO %2$d</string>
+    <string name="according_plan_this_is_the_stage_structure">Conforme al plan, esta es la estructura de la etapa que debes seguir para cumplirla.</string>
+    <string name="warm_up">Calentamiento</string>
+    <string name="training">Entrenamiento</string>
+    <string name="trial">Prueba</string>
+    <string name="run">Carrera</string>
+    <string name="initial_walk">Caminata inicial</string>
+    <string name="walk">Caminata</string>
+    <string name="fast_walk">Caminata rápida</string>
+    <string name="final_walk">Caminata final</string>
+    <string name="jog">Trote</string>
+    <string name="fast_jog">Trote rápido</string>
+    <string name="very_fast">Muy rápido</string>
+    <string name="recovery">Recuperación</string>
+    <string name="cool_down">Enfriamiento</string>
+    <plurals name="long_minutes">
+        <item quantity="one">m \'minuto\'</item>
+        <item quantity="other">m \'minutos\'</item>
+    </plurals>
+    <plurals name="long_seconds">
+        <item quantity="one">s \'segundo\'</item>
+        <item quantity="other">s \'segundos\'</item>
+    </plurals>
+    <string name="step_n">Paso %1$d</string>
+    <string name="stage_n">Etapa %1$d</string>
+    <string name="plan_1_strong_interval">1 Intervalo fuerte</string>
+    <string name="plan_2_strong_intervals">2 Intervalos fuertes</string>
+    <string name="plan_3_strong_intervals">3 Intervalos fuertes</string>
+    <string name="plan_4_strong_intervals">4 Intervalos fuertes</string>
+    <string name="plan_5_strong_intervals">5 Intervalos fuertes</string>
+    <string name="plan_6_strong_intervals">6 Intervalos fuertes</string>
+    <string name="plan_7_strong_intervals">7 Intervalos fuertes</string>
+    <string name="plan_8_strong_intervals">8 Intervalos fuertes</string>
+    <string name="plan_9_strong_intervals">9 Intervalos fuertes</string>
+    <string name="plan_10_strong_intervals">10 Intervalos fuertes</string>
+    <string name="plan_11_strong_intervals">11 Intervalos fuertes</string>
+    <string name="not_available">No disponible</string>
+    <string name="test">PRUEBA</string>
+    <string name="preparation">PREPARACIÓN</string>
+    <string name="initial_test">PRUEBA INICIAL</string>
+    <string name="final_test">PRUEBA FINAL</string>
+    <string name="run_simulation">SIMULACIÓN DE CARRERA</string>
+    <string name="training_duration">Tiempo: %1$s</string>
+    <string name="distance_larger_than_required">Distancia recorrida mayor a la requerida.</string>
+    <string name="distance_lesser_than_required">Distancia recorrida menor a la requerida.</string>
+    <string name="tranking_front">Detectando que te encuentres frente al teléfono. \n \n En la siguiente pantalla voltea tu teléfono en posición horizontal para comenzar la carrera.</string>
+    <string name="enter_valid_name">Ingresa un nombre válido. Longitud máxima 40 caracteres.</string>
+    <string name="enter_valid_lastname">Ingresa un apellido válido. Longitud máxima 40 caracteres.</string>
+    <string name="enter_valid_age">Ingresa una edad válida. Mínimo 13 años, máximo 100 años.</string>
+    <string name="invalid_weight">Peso inválido</string>
+    <string name="invalid_height">Altura inválida</string>
+    <string name="report_an_error">Reporta un error</string>
+    <string name="send_email">Enviar correo electrónico…</string>
+    <string name="there_are_no_email_clients">No hay clientes de correo instalados.</string>
+    <string name="email_contact">contact@runinapp.com</string>
+    <string name="spotify">Spotify</string>
+    <string name="no_music_players_installed">No hay reproductores de música instalados.</string>
+    <string name="cannot_start_music_player">No se pudo iniciar la aplicación de música.</string>
+    <string name="download_cancelled">Descarga cancelada</string>
+    <string name="moderated">Moderado</string>
+    <string name="intense">Intenso</string>
+    <string name="incorrect_value">Valor incorrecto</string>
+    <string name="yes">Si</string>
+    <string name="no">No</string>
+    <string name="the_amount_of_days_is_up_to_you">La cantidad de días la determinas tú. Son los días que podrás correr por semana. Esto es importante ya que dependiendo este número tu plan se ajustará.</string>
+    <string name="wait_dots">Espera…</string>
+    <string name="track_not_availabe_check_network">Por el momento esta pista no está disponible. Verifica tu conexión a la red.</string>
+    <string name="you_didnt_complete_previous_stage">Aún no completas por lo menos el %.0f%% de la etapa anterior.</string>
+    <string name="you_didnt_complete_trainings_to_make_test">Aún no completas por lo menos el %.0f%% de los entrenamientos para poder realizar la prueba.</string>
+    <string name="error_decoding_data">Error decodificando datos del servidor</string>
+    <string name="server_not_responding">El servidor de datos no responde. Por favor intenta de nuevo.</string>
+    <string name="step_n_of_m_description">Paso %1$d de %2$d. %3$s. Por %4$s a un ritmo de %5$s por kilómetro.</string>
+    <string name="starting_workout">Iniciando carrera</string>
+    <string name="drawer_years"><![CDATA[%1$s: <b>%2$d años</b>]]></string>
+    <string name="select_training_days">Selecciona los días de entrenamiento.</string>
+    <string name="select_the_distance">Selecciona la distancia</string>
+    <string name="a_new_style_of_training">un nuevo estilo de entrenamiento, más entretenido y eficiente.</string>
+    <string name="gps_system_inactive_want_to_activate">El GPS está desactivado, ¿Desea activarlo?</string>
+    <string name="it_is_necessary_to_activate_gps">Es necesario activar el GPS para continuar</string>
+    <string name="it_is_necessary_to_activate_location">Es necesario permitir el acceso a la ubicación para continuar</string>
+    <string name="slope">Pendiente</string>
+    <string name="segment">Segmento</string>
+    <string name="distance_and_time">%1$.1f km en %2$s</string>
+    <string name="time_seconds">%1$.0f seg</string>
+    <string name="phase_of_string">Fase de <b>%1$s</b></string>
+    <string name="instruction_pace_distance">%1$s, %2$s min y %3$s min/km.</string>
+    <string name="objetivo_km_title">Distancia\n(m)</string>
+    <string name="tiempo_placeholder">34 min</string>
+    <string name="fecha_placeholder">17-Nov-2017</string>
+    <string name="km_totales_placeholder">Dist. total</string>
+    <string name="objetivo_ritmo_title">Ritmo\n(min/km) </string>
+    <string name="objetivo_tiempo_title">Tiempo\n(min) </string>
+    <string name="ritmo_final_title">Ritmo final</string>
+    <string name="n_minutos">%1$s minutos</string>
+    <string name="n_km">%1$.1f kilómetros</string>
+    <string name="n_km_short">%1$.1f km</string>
+    <string name="n_meters">%1$.0f metros</string>
+    <string name="pace_one_km">Ritmo de vuelta 1km a %s por kilómetro</string>
+    <string name="your_pace_and_time">Tu ritmo es de %1$s por kilómetro y tu tiempo es de %2$s</string>
+    <string name="obtaining_location_to_start_race">Estamos obteniendo tu localización para poder iniciar la carrera.</string>
+    <string name="delete_videos">Eliminar videos</string>
+    <string name="youre_about_to_dlete_videos">Estás a punto de eliminar los videos para la carrera %1$s. ¿Deseas continuar?</string>
+    <string name="you_have_chosnen_level_x">Has escogido el nivel %1$s</string>
+    <string name="routines_will_be_increasing_want_to_continue">Las rutinas irán aumentando de intensidad y no podrás cambiar después. ¿Quieres continuar?</string>
+    <string name="do_you_want_to_continue">¿Quieres continuar?</string>
+    <string name="objetivo">Objetivo</string>
+    <string name="adjust_treadmill_with_speed_and_slope">Ajusta tu caminadora con la velocidad y pendiente</string>
+    <string name="fulfilled">Cumplido</string>
+    <string name="not_fulfilled">No cumplido</string>
+    <string name="objective">Objetivo</string>
+
+    <string name="newUpdateMessage1">*RUNiN</string>
+    <string name="newUpdateMessage2">tiene un nueva actualización.</string>
+    <string name="newUpdateMessage3">¿Podemos acceder a tus datos para actualizarlos?</string>
+    <string name="login">Inicia sesión</string>
+    <string name="loginBtn">INICIA SESIÓN</string>
+    <string name="email">EMAIL</string>
+    <string name="password">CONTRASEÑA</string>
+    <string name="recover_password">Recuperar Contraseña</string>
+    <string name="register">REGISTRO</string>
+
+    <string name="correo_electronico">Correo electrónico</string>
+    <string name="password_lowercase">Contraseña</string>
+    <string name="confirm_password">Confirmar contraseña</string>
+    <string name="mail_hint">correo@runin.com</string>
+    <string name="password_hint">**********</string>
+    <string name="verify_password">Verifica que las contraseñas coincidan</string>
+    <string name="new_user">Nuevo Usuario</string>
+    <string name="enter_username">Introduce tu usuario</string>
+    <string name="txt_name">Nombre</string>
+    <string name="txt_name_hint">Fernel</string>
+    <string name="txt_last_name">Apellido</string>
+    <string name="txt_last_name_hint">Arvizu</string>
+    <string name="txt_weight">Peso</string>
+    <string name="txt_sex">Género</string>
+    <string name="txt_email">Correo electrónico</string>
+    <string name="txt_password">Contraseña</string>
+    <string name="txt_confirm_password">Confirmar contraseña</string>
+    <string name="default_notification_channel_id">Runin Channel</string>
+
+</resources>

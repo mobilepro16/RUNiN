@@ -1,0 +1,20 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             xmlns:tools="http://schemas.android.com/tools"
+             android:id="@+id/videoSurfaceContainer"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             android:background="@color/black"
+             tools:context="com.runin.runinapp.indoor.PlayerActivity">
+
+    <SurfaceView
+        android:id="@+id/surfaceTrackVideo"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    </SurfaceView>
+
+    <SurfaceView
+        android:id="@+id/surfaceMotionDetection"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    </SurfaceView>
+</FrameLayout>

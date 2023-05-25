@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/Tabla"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="2px"
+        android:layout_span="6"
+        android:background="#eeeeee" >
+    </FrameLayout>
+
+    <TableRow
+        android:id="@+id/Cabecera"
+        android:background="@color/white">
+
+        <TextView
+            android:id="@+id/col_interval"
+            android:layout_gravity="left"
+            android:padding="5px"
+            android:layout_marginLeft="10dp"
+            android:text="@string/detail_1"
+            />
+
+        <TextView
+            android:id="@+id/col_req"
+            android:layout_gravity="left"
+            android:layout_marginLeft="20dp"
+            android:padding="5px"
+            android:text="@string/detail_2"
+            />
+
+
+        <TextView
+            android:id="@+id/col_average"
+            android:gravity="center"
+            android:padding="5px"
+            android:layout_marginLeft="20dp"
+            android:text="@string/detail_3"
+            />
+
+    </TableRow>
+
+    <TableRow
+        android:background="@color/colorGraysoft"
+        android:padding="@dimen/table_padding">
+
+        <TextView
+            android:layout_gravity="left"
+            android:layout_marginLeft="10dp"
+            android:padding="5px"
+            android:text="CALENTAMIENTO"
+            android:textSize="12sp"
+            />
+
+        <TextView
+            android:layout_gravity="left"
+            android:layout_marginLeft="20dp"
+            android:padding="5px"
+            android:text="CAMINATA INICIAL"
+            android:textSize="12sp"
+            />
+
+
+        <TextView
+            android:layout_marginLeft="20dp"
+            android:gravity="center"
+            android:padding="5px"
+            android:text="3.5 km/h"
+            android:textSize="12sp"
+            />
+
+    </TableRow>
+
+    <TableRow
+        android:background="@color/white"
+        android:padding="@dimen/table_padding">
+
+        <TextView
+            android:layout_gravity="left"
+            android:layout_marginLeft="10dp"
+            android:padding="5px"
+            android:text="ENTRENAMIENTO"
+            android:textSize="12sp"
+            />
+
+        <TextView
+            android:layout_gravity="left"
+            android:layout_marginLeft="20dp"
+            android:padding="5px"
+            android:text="TROTE"
+            android:textSize="12sp"
+            />
+
+
+        <TextView
+            android:layout_marginLeft="20dp"
+            android:gravity="center"
+            android:padding="5px"
+            android:text="8 km/h"
+            android:textSize="12sp"
+            />
+
+    </TableRow>
+
+    <TableRow
+        android:background="@color/colorGraysoft"
+        android:padding="@dimen/table_padding">
+
+        <TextView
+            android:layout_gravity="left"
+            android:layout_marginLeft="10dp"
+            android:padding="5px"
+            android:text="RECUPERACION"
+            android:textSize="12sp"
+            />
+
+        <TextView
+            android:layout_gravity="left"
+            android:layout_marginLeft="20dp"
+            android:padding="5px"
+            android:text="CAMINATA"
+            android:textSize="12sp"
+            />
+
+
+        <TextView
+            android:layout_marginLeft="20dp"
+            android:gravity="center"
+            android:padding="5px"
+            android:text="4 km/h"
+            android:textSize="12sp"
+            />
+
+    </TableRow>
+
+    <TableRow
+        android:background="@color/white"
+        android:padding="@dimen/table_padding">
+
+        <TextView
+            android:layout_gravity="left"
+            android:layout_marginLeft="10dp"
+            android:padding="5px"
+            android:text="ENTRENAMIENTO"
+            android:textSize="12sp"
+            />
+
+        <TextView
+            android:layout_gravity="left"
+            android:layout_marginLeft="20dp"
+            android:padding="5px"
+            android:text="TROTE RAPIDO"
+            android:textSize="12sp"
+            />
+
+
+        <TextView
+            android:layout_marginLeft="20dp"
+            android:gravity="center"
+            android:padding="5px"
+            android:text="9.5 km/h"
+            android:textSize="12sp"
+            />
+
+    </TableRow>
+
+    <TableRow
+        android:background="@color/colorGraysoft"
+        android:padding="@dimen/table_padding">
+
+        <TextView
+            android:layout_gravity="left"
+            android:layout_marginLeft="10dp"
+            android:padding="5px"
+            android:text="RECUPERACION"
+            android:textSize="12sp"
+            />
+
+        <TextView
+            android:layout_gravity="left"
+            android:layout_marginLeft="20dp"
+            android:padding="5px"
+            android:text="CAMINATA"
+            android:textSize="12sp"
+            />
+
+
+        <TextView
+            android:layout_marginLeft="20dp"
+            android:gravity="center"
+            android:padding="5px"
+            android:text="4 km/h"
+            android:textSize="12sp"
+            />
+
+    </TableRow>
+
+    <TableRow
+        android:background="@color/white"
+        android:padding="@dimen/table_padding">
+
+        <TextView
+            android:layout_gravity="left"
+            android:layout_marginLeft="10dp"
+            android:padding="5px"
+            android:text="ENTRENAMIENTO"
+            android:textSize="12sp"
+            />
+
+        <TextView
+            android:layout_gravity="left"
+            android:layout_marginLeft="20dp"
+            android:padding="5px"
+            android:text="TROTE RAPIDO"
+            android:textSize="12sp"
+            />
+
+
+        <TextView
+            android:layout_marginLeft="20dp"
+            android:gravity="center"
+            android:padding="5px"
+            android:text="9.5 km/h"
+            android:textSize="12sp"
+            />
+
+    </TableRow>
+
+    <TableRow
+        android:background="@color/colorGraysoft"
+        android:padding="@dimen/table_padding">
+
+        <TextView
+            android:layout_gravity="left"
+            android:layout_marginLeft="10dp"
+            android:padding="5px"
+            android:text="RECUPERACION"
+            android:textSize="12sp"
+            />
+
+        <TextView
+            android:layout_gravity="left"
+            android:layout_marginLeft="20dp"
+            android:padding="5px"
+            android:text="CAMINATA"
+            android:textSize="12sp"
+            />
+
+
+        <TextView
+            android:layout_marginLeft="20dp"
+            android:gravity="center"
+            android:padding="5px"
+            android:text="4 km/h"
+            android:textSize="12sp"
+            />
+
+    </TableRow>
+
+    <FrameLayout
+        android:id="@+id/LineaCabecera"
+        android:layout_width="match_parent"
+        android:layout_height="2px"
+        android:layout_span="6"
+        android:background="#eeeeee" >
+    </FrameLayout>
+
+</TableLayout>

@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <requestFocus android:layout_width="match_parent"/>
+
+        <LinearLayout
+            android:id="@+id/linearLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorQS"
+            android:orientation="vertical"
+            android:paddingBottom="4dp"
+            android:paddingTop="@dimen/activity_vertical_margin">
+
+            <TextView
+                android:id="@+id/screen_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:gravity="center"
+                android:text="@string/goal_percentage"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@android:color/white"
+                android:visibility="gone"/>
+
+
+            <androidx.viewpager.widget.ViewPager
+                android:id="@+id/circleDisplayImg"
+                android:layout_width="match_parent"
+                android:layout_height="270dp"
+                android:layout_gravity="center"/>
+
+
+            <com.runin.runinapp.utils.circleDisplay.CircleDisplay
+                android:id="@+id/circleDisplay"
+                android:layout_width="170dp"
+                android:layout_height="120dp"
+                android:layout_gravity="center"
+                android:clickable="false"
+                android:visibility="gone"/>
+
+            <TextView
+                android:id="@+id/user_txt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/white"
+                android:textSize="18sp"/>
+
+            <TextView
+                android:id="@+id/level_txt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textColor="@color/colorTime"/>
+
+
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/linearImag"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:scaleType="centerCrop"
+            android:src="@mipmap/linea_diagonal"
+            tools:ignore="ContentDescription"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:gravity="center"
+                android:paddingEnd="@dimen/activity_vertical_margin"
+                android:paddingStart="10dp"
+                android:text="@string/select_track"
+                android:textColor="@color/gray"
+                android:textSize="16sp"
+                android:textStyle="italic"/>
+
+            <org.lucasr.twowayview.TwoWayView
+                android:id="@+id/twoway_view"
+                style="@style/TwoWayView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="10dp"
+                android:drawSelectorOnTop="false"
+                tools:context=".indoor.IndoorDashboardActivity"/>
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="4dp"
+                android:gravity="center"
+                android:paddingEnd="@dimen/activity_vertical_margin"
+                android:paddingStart="10dp"
+                android:text="@string/earned_badges"
+                android:textColor="@color/gray"
+                android:textSize="16sp"
+                android:textStyle="italic"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="132dp"
+                android:layout_marginBottom="10dp"
+                android:background="?android:attr/selectableItemBackground"
+                android:clickable="true"
+                android:focusable="true"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:paddingEnd="@dimen/margin_list_horizontal"
+                android:paddingStart="@dimen/margin_list_horizontal"
+                android:weightSum="1">
+
+                <ImageView
+                    android:id="@+id/newbie"
+                    android:layout_width="wrap_content"
+                    android:layout_height="136dp"
+                    android:layout_weight="0.4"
+                    android:src="@drawable/badge_icon_newbie_gray"
+                    android:text="NEWBIE"
+                    tools:ignore="ContentDescription,HardcodedText"/>
+
+                <ImageView
+                    android:id="@+id/boost"
+                    android:layout_width="wrap_content"
+                    android:layout_height="136dp"
+                    android:layout_weight="0.4"
+                    android:src="@drawable/badge_icon_boost_gray"
+                    android:text="BOOST"
+                    tools:ignore="ContentDescription,HardcodedText"/>
+
+                <ImageView
+                    android:id="@+id/all"
+                    android:layout_width="wrap_content"
+                    android:layout_height="116dp"
+                    android:src="@drawable/all_badge_gray"
+                    android:text="VER TODO"
+                    tools:ignore="ContentDescription,HardcodedText"/>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

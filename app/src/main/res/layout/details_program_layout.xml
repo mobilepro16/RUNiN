@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             xmlns:tools="http://schemas.android.com/tools"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content">
+
+    <TableRow
+        android:background="@color/colorGraysoft"
+        android:gravity="center">
+
+        <TextView
+            android:layout_marginEnd="25dp"
+            android:gravity="center"
+            android:padding="3dip"
+            android:text="1"
+            tools:ignore="HardcodedText"/>
+
+        <TextView
+            android:layout_gravity="start"
+            android:padding="3dip"
+            android:text="@string/detalles_1"/>
+
+        <TextView
+            android:layout_marginStart="25dp"
+            android:gravity="center"
+            android:padding="3dip"
+            android:text="4.0"
+            tools:ignore="HardcodedText"/>
+
+        <TextView
+            android:gravity="center"
+            android:padding="3dip"
+            android:text="km/h"
+            tools:ignore="HardcodedText"/>
+
+        <TextView
+            android:layout_marginStart="25dp"
+            android:gravity="center"
+            android:padding="3dip"
+            android:text="0.00"
+            tools:ignore="HardcodedText"/>
+
+        <TextView
+            android:layout_marginStart="25dp"
+            android:gravity="center"
+            android:padding="3dip"
+            android:text="03:20"
+            tools:ignore="HardcodedText"/>
+
+    </TableRow>
+
+    <TableRow
+        android:gravity="center">
+
+        <TextView
+            android:layout_marginEnd="25dp"
+            android:gravity="center"
+            android:padding="3dip"
+            android:text="2"
+            tools:ignore="HardcodedText"/>
+
+        <TextView
+            android:layout_gravity="start"
+            android:padding="3dip"
+            android:text="@string/detalles_2"/>
+
+        <TextView
+            android:layout_marginStart="25dp"
+            android:gravity="center"
+            android:padding="3dip"
+            android:text="5.5"
+            tools:ignore="HardcodedText"/>
+
+        <TextView
+            android:gravity="center"
+            android:padding="3dip"
+            android:text="km/h"
+            tools:ignore="HardcodedText"/>
+
+        <TextView
+            android:layout_marginStart="25dp"
+            android:gravity="center"
+            android:padding="3dip"
+            android:text="0.50"
+            tools:ignore="HardcodedText"/>
+
+        <TextView
+            android:layout_marginStart="25dp"
+            android:gravity="center"
+            android:padding="3dip"
+            android:text="02:12"
+            tools:ignore="HardcodedText"/>
+
+    </TableRow>
+
+    <TableRow
+        android:background="@color/colorGraysoft"
+        android:gravity="center">
+
+        <TextView
+            android:layout_marginEnd="25dp"
+            android:gravity="center"
+            android:padding="3dip"
+            android:text="3"
+            tools:ignore="HardcodedText"/>
+
+        <TextView
+            android:layout_gravity="start"
+            android:padding="3dip"
+            android:text="@string/detalles_3"
+            tools:ignore="HardcodedText"/>
+
+        <TextView
+            android:layout_marginStart="25dp"
+            android:gravity="center"
+            android:padding="3dip"
+            android:text="4.5"
+            tools:ignore="HardcodedText"/>
+
+        <TextView
+            android:gravity="center"
+            android:padding="3dip"
+            android:text="km/h"
+            tools:ignore="HardcodedText"/>
+
+        <TextView
+            android:layout_marginStart="25dp"
+            android:gravity="center"
+            android:padding="3dip"
+            android:text="0.50"
+            tools:ignore="HardcodedText"/>
+
+        <TextView
+            android:layout_marginStart="25dp"
+            android:gravity="center"
+            android:padding="3dip"
+            android:text="02:55"
+            tools:ignore="HardcodedText"/>
+
+    </TableRow>
+
+    <TableRow
+        android:gravity="center">
+
+        <TextView
+            android:layout_marginEnd="25dp"
+            android:gravity="center"
+            android:padding="3dip"
+            android:text="4"
+            tools:ignore="HardcodedText"/>
+
+        <TextView
+            android:layout_gravity="start"
+            android:padding="3dip"
+            android:text="@string/detalles_4"/>
+
+        <TextView
+            android:layout_marginStart="25dp"
+            android:gravity="center"
+            android:padding="3dip"
+            android:text="6.0"
+            tools:ignore="HardcodedText"/>
+
+        <TextView
+            android:gravity="center"
+            android:padding="3dip"
+            android:text="km/h"
+            tools:ignore="HardcodedText"/>
+
+        <TextView
+            android:layout_marginStart="25dp"
+            android:gravity="center"
+            android:padding="3dip"
+            android:text="1.00"
+            tools:ignore="HardcodedText"/>
+
+        <TextView
+            android:layout_marginStart="25dp"
+            android:gravity="center"
+            android:padding="3dip"
+            android:text="03:12"
+            tools:ignore="HardcodedText"/>
+
+    </TableRow>
+
+    <TableRow
+        android:background="@color/colorGraysoft"
+        android:gravity="center">
+
+        <TextView
+            android:layout_marginEnd="25dp"
+            android:gravity="center"
+            android:padding="3dip"
+            android:text="5"
+            tools:ignore="HardcodedText"/>
+
+        <TextView
+            android:layout_gravity="start"
+            android:padding="3dip"
+            android:text="@string/detalles_5"/>
+
+        <TextView
+            android:layout_marginStart="25dp"
+            android:gravity="center"
+            android:padding="3dip"
+            android:text="3.5"
+            tools:ignore="HardcodedText"/>
+
+        <TextView
+            android:gravity="center"
+            android:padding="3dip"
+            android:text="km/h"
+            tools:ignore="HardcodedText"/>
+
+        <TextView
+            android:layout_marginStart="25dp"
+            android:gravity="center"
+            android:padding="3dip"
+            android:text="1.00"
+            tools:ignore="HardcodedText"/>
+
+        <TextView
+            android:layout_marginStart="25dp"
+            android:gravity="center"
+            android:padding="3dip"
+            android:text="02:50"
+            tools:ignore="HardcodedText"/>
+
+    </TableRow>
+</TableLayout>

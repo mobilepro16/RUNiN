@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.runin.runinapp">
+    <!--
+            The ACCESS_COARSE/FINE_LOCATION permissions are not required to use
+            Google Maps Android API v2, but you must specify either coarse or fine
+            location permissions for the 'MyLocation' functionality.
+    -->
+    <uses-feature
+        android:glEsVersion="0x00020000"
+        android:required="true" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="com.android.vending.BILLING" />
+
+    <uses-feature
+        android:name="android.hardware.camera"
+        android:required="true" />
+
+    <application
+        android:name=".App"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".SignUpActivity"
+                  android:windowSoftInputMode="stateVisible|adjustPan">
+        </activity>
+        <activity android:name=".LoginActivity"
+            android:windowSoftInputMode="stateVisible|adjustPan"/>
+        <activity android:name=".MessageNewUpdateActivity" />
+        <!--
+        The API key for Google Maps-based APIs is defined as a string resource.
+        (See the file "res/values/google_maps_api.xml").
+        Note that the API key is linked to the encryption key used to sign the APK.
+        You need a different API key for each encryption key, including the release key that is used to
+        sign the APK for publishing.
+        You can define the keys for the debug and release targets in src/debug/ and src/release/.
+        -->
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/google_maps_key" />
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+        <meta-data
+            android:name="com.facebook.sdk.ApplicationId"
+            android:value="@string/facebook_app_id" />
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="ca-app-pub-5956662992010209~4382315577" />
+
+        <provider
+            android:name="androidx.core.content.FileProvider"
+            android:authorities="com.runin.runinapp.file_provider"
+            android:enabled="true"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/file_paths" />
+        </provider>
+        <provider
+            android:name="com.facebook.FacebookContentProvider"
+            android:authorities="com.facebook.app.FacebookContentProvider244131719386451"
+            android:exported="true" /> <!-- Required by the Facebook SDK -->
+        <activity
+            android:name="com.facebook.FacebookActivity"
+            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
+            android:label="@string/app_name" /> <!-- Required by the Facebook SDK -->
+        <activity
+            android:name="com.facebook.CustomTabActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data android:scheme="@string/fb_login_protocol_scheme" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".outdoor.OutdoorDashboardActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".SplashScreenActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:screenOrientation="portrait"
+            android:theme="@style/FullscreenTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".tutorial.TutorialActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".settings.ProfileActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".SelectIndoorOutdoorActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".outdoor.OutdoorSelectPlanActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".utils.detector.MotionDetectionActivity"
+            android:screenOrientation="landscape"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar.FullScreen" />
+        <activity
+            android:name=".outdoor.OutdoorRunningActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".settings.InformationAppActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".outdoor.OutdoorResultActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".musicPlayer.SelectPlayerActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".indoor.SelectLevelActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".indoor.IndoorDashboardActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".indoor.PreIndoorActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".indoor.PostIndoorActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".FacebookRuninActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".outdoor.improve.ImproveDefineFocusActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".outdoor.plans.SelectPlanFocusActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".outdoor.plans.SelectDistanceActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".outdoor.plans.SelectPaceActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".indoor.PlayerActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".outdoor.improve.ImproveDefineDistanceActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".outdoor.plans.SelectPlanSummary"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".outdoor.plans.SelectPlanLength"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".outdoor.improve.ImproveDefineTimeActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".outdoor.plans.SelectPlanActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".outdoor.plans.SelectTrainingActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".outdoor.plans.TrainingDetailsActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".outdoor.plans.PreRunPlanActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".outdoor.improve.YourPaceActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".outdoor.improve.PreRunImproveActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".indoor.IndoorNotFinishedActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".settings.SettingsManageVideosActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".indoor.IndoorBadgesActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".indoor.PreIndoorRunActivity"
+            android:screenOrientation="landscape" />
+
+        <service
+            android:name=".AppFirebaseMessagingService"
+            android:stopWithTask="false">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+
+        <meta-data
+            android:name="com.google.firebase.messaging.default_notification_channel_id"
+            android:value="@string/default_notification_channel_id" />
+
+    </application>
+
+</manifest>

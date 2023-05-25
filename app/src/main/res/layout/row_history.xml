@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--<TableRow xmlns:android="http://schemas.android.com/apk/res/android"
+          xmlns:tools="http://schemas.android.com/tools"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:gravity="center_horizontal"
+          android:orientation="horizontal"
+          android:paddingBottom="5dp"
+          android:paddingEnd="5dp"
+          android:paddingStart="5dp">
+
+    <TextView
+        android:id="@+id/date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="10dp"
+        android:layout_marginStart="10dp"
+        android:gravity="center_horizontal"
+        android:padding="2dp"
+        android:text="15/08/2017"
+        tools:ignore="HardcodedText"/>
+
+    <TextView
+        android:id="@+id/goal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="10dp"
+        android:layout_marginStart="10dp"
+        android:gravity="center_horizontal"
+        android:padding="2dp"
+        android:text="3500m"
+        tools:ignore="HardcodedText"/>
+
+    <TextView
+        android:id="@+id/total"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="10dp"
+        android:layout_marginStart="10dp"
+        android:gravity="center_horizontal"
+        android:padding="2dp"
+        android:text="00:01:00"
+        tools:ignore="HardcodedText"/>
+
+    <TextView
+        android:id="@+id/average"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="10dp"
+        android:layout_marginStart="10dp"
+        android:gravity="center_horizontal"
+        android:padding="2dp"
+        android:text="4.5 km/h"
+        tools:ignore="HardcodedText"/>
+</TableRow>-->
+<TableRow xmlns:android="http://schemas.android.com/apk/res/android"
+          xmlns:tools="http://schemas.android.com/tools"
+          android:id="@+id/Cabecera"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:background="@color/colorCal"
+          android:gravity="center_horizontal"
+          android:paddingBottom="5dp"
+          android:paddingTop="5dp">
+
+    <TextView
+        android:id="@+id/distance"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="10dp"
+        android:layout_marginStart="10dp"
+        android:layout_weight="0.5"
+        android:gravity="center_horizontal"
+        android:padding="2dp"
+        android:text="6000 / 6000"
+        android:textColor="@color/white"
+        tools:ignore="HardcodedText"/>
+
+    <TextView
+        android:id="@+id/duration"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="10dp"
+        android:layout_marginStart="10dp"
+        android:layout_weight="0.5"
+        android:gravity="center_horizontal"
+        android:padding="2dp"
+        android:text="25:00 / 45:00"
+        android:textColor="@color/white"
+        tools:ignore="HardcodedText"/>
+
+</TableRow>

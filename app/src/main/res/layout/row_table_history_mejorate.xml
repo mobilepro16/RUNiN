@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableRow xmlns:android="http://schemas.android.com/apk/res/android"
+          xmlns:app="http://schemas.android.com/apk/res-auto"
+          xmlns:tools="http://schemas.android.com/tools"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_gravity="center"
+          android:orientation="horizontal"
+          android:paddingBottom="8dp"
+          android:paddingEnd="16dp"
+          android:paddingStart="16dp"
+          android:paddingTop="8dp"
+          android:weightSum="1">
+
+    <TextView
+        android:id="@+id/txtKm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_weight="0.25"
+        android:gravity="center"
+        android:text="1"
+        tools:ignore="HardcodedText"/>
+
+    <TextView
+        android:id="@+id/txtRequiredPace"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_weight="0.25"
+        android:gravity="center"
+        android:text="3.5 min/km"
+        tools:ignore="HardcodedText"/>
+
+    <TextView
+        android:id="@+id/txtAveragePace"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_weight="0.25"
+        android:gravity="center"
+        android:text="4.5 min/km"
+        tools:ignore="HardcodedText"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_weight="0.25"
+        android:gravity="center">
+
+        <ImageView
+            android:id="@+id/imgStatusGreen"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/circule_green"
+            tools:ignore="ContentDescription"/>
+
+        <ImageView
+            android:id="@+id/imgStatusRed"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/circule_red"
+            tools:ignore="ContentDescription"/>
+    </LinearLayout>
+</TableRow>

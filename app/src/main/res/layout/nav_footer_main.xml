@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:background="@android:color/transparent"
+              android:gravity="bottom"
+              android:orientation="vertical"
+              android:paddingBottom="15dp"
+              android:paddingEnd="20dp"
+              android:paddingStart="20dp"
+              android:paddingTop="15dp"
+              android:theme="@style/ThemeOverlay.AppCompat.Dark">
+
+    <Button
+        android:id="@+id/menu_outdoor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="15dp"
+        android:background="@drawable/button_white_transparent"
+        android:drawableEnd="@mipmap/icono_out_door"
+        android:drawablePadding="5dp"
+        android:onClick="onOutDoorClick"
+        android:padding="10dp"
+        android:text="@string/profileMode"
+        android:textAllCaps="false"
+        android:textColor="@color/colorGrayMenu"/>
+
+    <Button
+        android:id="@+id/menu_indoor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="15dp"
+        android:background="@drawable/button_white_transparent"
+        android:drawableEnd="@mipmap/icono_in_door"
+        android:drawablePadding="5dp"
+        android:onClick="onInDoorClick"
+        android:padding="10dp"
+        android:text="@string/profileMode"
+        android:textAllCaps="false"
+        android:textColor="@color/colorGrayMenu"/>
+
+    <View
+        android:id="@+id/view2"
+        android:layout_width="200dp"
+        android:layout_height="1dp"
+        android:background="@color/colorGradientDrawer2"/>
+
+    <Button
+        android:id="@+id/menu_quick"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="15dp"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/button_white_transparent"
+        android:drawableEnd="@mipmap/boton_quick"
+        android:drawablePadding="5dp"
+        android:onClick="onQuickClick"
+        android:padding="10dp"
+        android:text="@string/profileMode"
+        android:textAllCaps="false"
+        android:textColor="@color/colorGrayMenu"/>
+
+    <Button
+        android:id="@+id/menu_planes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="15dp"
+        android:background="@drawable/button_white_transparent"
+        android:drawableEnd="@mipmap/icono_in_planes"
+        android:drawablePadding="5dp"
+        android:onClick="plansP"
+        android:padding="10dp"
+        android:text="@string/profileMode"
+        android:textAllCaps="false"
+        android:textColor="@color/colorGrayMenu"/>
+
+    <Button
+        android:id="@+id/menu_mejorate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="15dp"
+        android:background="@drawable/button_white_transparent"
+        android:drawableEnd="@mipmap/icono_in_mejorate"
+        android:drawablePadding="5dp"
+        android:onClick="improveP"
+        android:padding="10dp"
+        android:text="@string/profileMode"
+        android:textAllCaps="false"
+        android:textColor="@color/colorGrayMenu"/>
+</LinearLayout>

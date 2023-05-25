@@ -1,0 +1,228 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar"/>
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light"/>
+
+    <style name="FullscreenTheme" parent="AppTheme">
+        <item name="android:actionBarStyle">@style/FullscreenActionBarStyle</item>
+        <item name="android:windowActionBarOverlay">true</item>
+        <item name="android:windowBackground">@null</item>
+        <item name="metaButtonBarStyle">?android:attr/buttonBarStyle</item>
+        <item name="metaButtonBarButtonStyle">?android:attr/buttonBarButtonStyle</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="FullscreenActionBarStyle" parent="Widget.AppCompat.ActionBar">
+        <item name="android:background">@color/black_overlay</item>
+    </style>
+
+
+    <style name="Button.Orange" parent="android:Widget.Button">
+        <item name="android:background">@drawable/button_orange</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textSize">@dimen/font_size_button</item>
+        <item name="android:textStyle">italic</item>
+    </style>
+
+    <style name="Button.White" parent="android:Widget.Button">
+        <item name="android:background">@color/transparent</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/black_overlay</item>
+        <item name="android:textSize">@dimen/font_size_subtitles</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="Button.Orange2" parent="android:Widget.Button">
+        <item name="android:background">@drawable/button_orange</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textSize">@dimen/font_size_button2</item>
+        <item name="android:textStyle">italic</item>
+    </style>
+
+    <style name="Button.Gray" parent="android:Widget.Button">
+        <item name="android:background">@drawable/button_gray</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textSize">@dimen/font_size_button2</item>
+        <item name="android:textStyle">italic</item>
+    </style>
+
+
+    <style name="Button.Red" parent="android:Widget.Button">
+        <item name="android:background">@drawable/button_red</item>
+        <item name="android:textSize">@dimen/font_title_place</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@android:color/white</item>
+
+    </style>
+
+    <style name="Button.Green" parent="android:Widget.Button">
+        <item name="android:background">@drawable/button_green</item>
+        <item name="android:textSize">@dimen/font_title_place</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@android:color/white</item>
+
+    </style>
+
+    <style name="Button.Red.Video" parent="android:Widget.Button">
+        <item name="android:background">@drawable/button_red</item>
+        <item name="android:layout_width">200dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@android:color/white</item>
+
+    </style>
+
+    <style name="Button.Green.Video" parent="android:Widget.Button">
+        <item name="android:background">@drawable/button_green</item>
+        <item name="android:layout_width">200dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@android:color/white</item>
+
+    </style>
+
+
+    <style name="Button.Transparent" parent="android:Widget.Button">
+        <item name="android:background">@color/transparent</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textStyle">italic</item>
+    </style>
+
+    <style name="Button.Transparent.Yellow" parent="android:Widget.Button">
+        <item name="android:background">@drawable/button_yellow_transparent</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center</item>
+        <!--<item name="android:paddingStart">36dp</item>
+        <item name="android:paddingEnd">36dp</item>-->
+        <item name="android:paddingTop">5dp</item>
+        <item name="android:paddingBottom">5dp</item>
+        <item name="android:paddingLeft">36dp</item>
+        <item name="android:paddingRight">36dp</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:textColor">@color/colorYellowCream</item>
+        <item name="android:tag">fonts/BebasNeue.otf</item>
+    </style>
+
+
+    <style name="TitleProfile" parent="android:Widget.TextView">
+        <item name="android:textStyle">italic</item>
+        <item name="android:textSize">@dimen/profile_titles</item>
+        <item name="android:textColor">@color/colorGrayTitles</item>
+        <item name="android:layout_marginStart">3dp</item>
+        <item name="android:layout_marginEnd">3dp</item>
+    </style>
+
+    <style name="EditTextProfile" parent="android:Widget.EditText">
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">@dimen/profile_values</item>
+    </style>
+
+    <style name="SpinnerProfile" parent="android:Widget.TextView">
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">@dimen/profile_values</item>
+        <item name="android:textColor">@android:color/black</item>
+    </style>
+
+    <style name="DialogAlert" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <item name="colorAccent">@color/colorPrimary</item>
+        <item name="android:textColorPrimary">@color/black_overlay</item>
+        <item name="android:background">@color/colorWhite</item>
+    </style>
+
+    <style name="Theme.AppCompat.Light.NoActionBar.FullScreen" parent="@style/Theme.AppCompat.Light">
+        <item name="windowNoTitle">true</item>
+        <item name="windowActionBar">false</item>
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
+
+    <style name="YellowTitles" parent="android:Widget.TextView">
+        <item name="android:textStyle">italic</item>
+        <item name="android:textSize">@dimen/profile_values</item>
+        <item name="android:textColor">@color/colorYellowCream</item>
+    </style>
+
+    <style name="TwoWayView">
+        <item name="android:orientation">horizontal</item>
+    </style>
+
+    <style name="MediaButton">
+        <item name="android:background">@null</item>
+        <item name="android:layout_width">71dip</item>
+        <item name="android:layout_height">52dip</item>
+    </style>
+
+    <style name="MediaButton.Previous">
+        <item name="android:src">@android:drawable/ic_media_previous</item>
+    </style>
+
+    <style name="MediaButton.Batery">
+        <item name="android:background">@drawable/powerson_icon_yellow</item>
+
+    </style>
+
+    <style name="MediaButton.Next">
+        <item name="android:src">@android:drawable/ic_media_next</item>
+    </style>
+
+    <style name="MediaButton.Play">
+        <item name="android:src">@android:drawable/ic_media_play</item>
+    </style>
+
+    <style name="MediaButton.Ffwd">
+        <item name="android:src">@android:drawable/ic_media_ff</item>
+    </style>
+
+    <style name="MediaButton.Rew">
+        <item name="android:src">@android:drawable/ic_media_rew</item>
+    </style>
+
+    <style name="MediaButton.Pause">
+        <item name="android:src">@drawable/pause_icon_yellow</item>
+    </style>
+
+
+    <style name="FacebookLoginButton">
+        <item name="android:background">@drawable/boton_fb2</item>
+
+        <item name="android:layout_gravity">center_horizontal</item>
+    </style>
+
+    <style name="boldFont">
+        <item name="android:fontFamily">@font/open_sans_bold</item>
+    </style>
+
+    <style name="spinnerTheme" parent="Widget.AppCompat.Spinner">
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+</resources>

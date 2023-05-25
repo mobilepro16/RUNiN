@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.runin.runinapp.musicPlayer.SelectPlayerActivity"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+    <include layout="@layout/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <RelativeLayout
+        android:id="@+id/activity_select_player"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+        <LinearLayout
+            android:id="@+id/title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorQS"
+            android:paddingTop="16dp"
+            android:gravity="center"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentStart="true">
+
+            <!--<ImageView
+                android:id="@+id/quick_start_image"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@mipmap/quick_start"/>-->
+
+            <TextView
+                android:id="@+id/title_select_music"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/musicSelectTitle"
+                android:textColor="@color/purpleCreamColor"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/musicSelectfooter"
+                android:layout_margin="16dp"
+                android:textSize="12sp"
+                />
+
+            <Button
+                android:id="@+id/confirm_music"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/musicSelectButton"
+                style="@style/Button.Orange"
+                android:layout_gravity="center_horizontal"
+                android:onClick="confirmPlayer"/>
+        </LinearLayout>
+
+
+
+
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/linea_diagonal"
+            android:scaleType="centerCrop"
+            android:layout_below="@+id/title"
+            android:layout_alignParentStart="true"
+            android:id="@+id/imageView5"
+            tools:ignore="ContentDescription"/>
+
+        <LinearLayout
+            android:paddingTop="10dp"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/title"
+            android:id="@+id/under_title"
+            android:layout_alignParentStart="true">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/musicSelectMessage"
+                android:layout_marginTop="8dp"
+                android:textAlignment="center"
+                android:padding="18dp"
+                android:layout_gravity="center_horizontal"
+                />
+
+            <!--<RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="5dp">
+
+                <ImageView
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:src="@mipmap/boton_musica"
+                    android:layout_margin="10dp"
+                    android:id="@+id/play_music_icon"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/musicPlayMusic"
+                    android:layout_marginTop="15dp"
+                    android:layout_toRightOf="@+id/play_music_icon"
+                    android:id="@+id/play_music_text"/>
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="fill_horizontal"
+                    android:id="@+id/radio_music"
+                    android:layout_marginTop="7dp"
+                    android:layout_alignParentRight="true"/>
+
+            </RelativeLayout>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:background="@android:color/darker_gray" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="5dp">
+
+                <ImageView
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:src="@mipmap/boton_spotify"
+                    android:layout_margin="10dp"
+                    android:id="@+id/spotify_icon"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/musicSpotify"
+                    android:layout_marginTop="15dp"
+                    android:layout_toRightOf="@+id/spotify_icon"
+                    android:id="@+id/spotify_text"/>
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="fill_horizontal"
+                    android:id="@+id/radio_spotify"
+                    android:layout_marginTop="7dp"
+                    android:layout_alignParentRight="true"/>
+
+            </RelativeLayout>-->
+            
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:id="@+id/select_music_player">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="5dp"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="25dp"
+                        android:layout_height="25dp"
+                        android:src="@mipmap/boton_musica"
+                        android:layout_margin="3dp"
+                        android:id="@+id/play_music_icon"
+                        tools:ignore="ContentDescription"/>
+
+
+                    <RadioButton
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="8dp"
+                        android:layout_gravity="start"
+                        android:id="@+id/radio_music"
+                        android:layout_marginTop="7dp"
+                        android:text="@string/musicPlayMusic"
+                        android:textAlignment="textStart"
+                        android:layoutDirection="rtl"
+                        android:onClick="onClickRadioGroup"
+                        />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="5dp"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="25dp"
+                        android:layout_height="25dp"
+                        android:src="@mipmap/boton_spotify"
+                        android:layout_margin="3dp"
+                        android:id="@+id/spotify_icon"
+                        tools:ignore="ContentDescription"/>
+
+                    <RadioButton
+                        android:layout_width="match_parent"
+                        android:layout_margin="8dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="start"
+                        android:id="@+id/radio_spotify"
+                        android:layout_marginTop="18dp"
+                        android:layoutDirection="rtl"
+                        android:text="@string/musicSpotify"
+                        android:textAlignment="textStart"
+                        android:onClick="onClickRadioGroup"/>
+
+                </LinearLayout>
+
+
+
+            </RadioGroup>
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</LinearLayout>
+

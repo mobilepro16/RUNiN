@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:id="@+id/outdoor_plans_include"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:layout_gravity="center"
+              android:orientation="vertical">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#eeeeee">
+    </FrameLayout>
+
+    <TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                 xmlns:tools="http://schemas.android.com/tools"
+                 android:id="@+id/TablePlans"
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+                 android:layout_gravity="center">
+
+        <TableRow
+            android:id="@+id/Cabecera"
+            tools:ignore="UselessParent">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="start"
+                android:layout_marginStart="10dp"
+                android:layout_weight="0.3"
+                android:padding="2dp"
+                android:text="@string/detail_1"/>
+
+            <TextView
+                android:id="@+id/txtInstruction"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="start"
+                android:layout_marginStart="20dp"
+                android:layout_weight="0.2"
+                android:padding="2dp"
+                android:text="@string/detail_3"
+                android:textAlignment="center"/>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="0dp"
+                android:layout_weight="0.2"
+                android:gravity="start"
+                android:padding="2dp"
+                android:text="@string/detail_4"
+                android:textAlignment="center"/>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="0dp"
+                android:layout_weight="0.2"
+                android:gravity="start"
+                android:padding="2dp"
+                android:text="@string/detail_5"
+                android:textAlignment="center"/>
+
+        </TableRow>
+    </TableLayout>
+
+    <FrameLayout
+        android:id="@+id/LineaCabecera"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#eeeeee">
+    </FrameLayout>
+
+</LinearLayout>

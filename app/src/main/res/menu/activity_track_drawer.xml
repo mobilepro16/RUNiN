@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_dashboard"
+            android:icon="@mipmap/dashboard_perfil"
+            android:title="@string/dashboard" />
+
+        <item
+            android:id="@+id/badges_nav"
+            android:icon="@mipmap/insignia"
+            android:title="@string/badges" />
+
+        <item
+            android:id="@+id/nav_profile"
+            android:icon="@mipmap/perfil"
+            android:title="@string/profile" />
+
+        <item
+            android:id="@+id/comm_perfil"
+            android:icon="@mipmap/comunidad"
+            android:title="@string/community" />
+        <item
+            android:id="@+id/nav_settings"
+            android:icon="@mipmap/ajustes_perfil"
+            android:title="@string/settings" />
+
+    </group>
+
+</menu>

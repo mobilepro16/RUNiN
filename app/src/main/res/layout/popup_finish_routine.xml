@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingStart="@dimen/padding_button_dialog"
+    android:paddingEnd="@dimen/padding_button_dialog"
+    android:background="@null"
+    android:gravity="center"
+    >
+
+    <Button
+        android:id="@+id/continue_btn"
+        android:layout_gravity="center_vertical"
+        android:text="@string/continue_button"
+        style="@style/Button.Green"/>
+
+    <Button
+        android:id="@+id/finish_btn"
+        android:layout_below="@+id/continue_btn"
+        android:text="@string/finish"
+        style="@style/Button.Red"
+        android:layout_marginTop="12dp" />
+
+</RelativeLayout>
